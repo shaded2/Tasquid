@@ -1304,8 +1304,7 @@ public class TaskListFragment extends SherlockListFragment implements OnSortSele
 
     public boolean handleOptionsMenuItemSelected(int id, Intent intent) {
         Activity activity = getActivity();
-        switch(id) {
-        case MENU_SORT_ID:
+        if (id == MENU_SORT_ID) {
             StatisticsService.reportEvent(StatisticsConstants.TLA_MENU_SORT);
             if (activity != null) {
                 AlertDialog dialog = SortSelectionActivity.createDialog(
@@ -1313,16 +1312,16 @@ public class TaskListFragment extends SherlockListFragment implements OnSortSele
                 dialog.show();
             }
             return true;
-        case MENU_SYNC_ID:
+        } else if (id == MENU_SYNC_ID) {
             StatisticsService.reportEvent(StatisticsConstants.TLA_MENU_SYNC);
             syncActionHelper.performSyncAction();
             return true;
-        case MENU_ADDON_INTENT_ID:
+        } else if (id == MENU_ADDON_INTENT_ID) {
             if (activity != null)
                 AndroidUtilities.startExternalIntent(activity, intent,
                         ACTIVITY_MENU_EXTERNAL);
             return true;
-        case MENU_NEW_FILTER_ID:
+        } else if (id == MENU_NEW_FILTER_ID) {
             if (activity != null) {
                 intent = new Intent(activity, CustomFilterActivity.class);
                 activity.startActivityForResult(intent, ACTIVITY_REQUEST_NEW_FILTER);
@@ -1344,32 +1343,25 @@ public class TaskListFragment extends SherlockListFragment implements OnSortSele
         if (handleOptionsMenuItemSelected(item.getItemId(), item.getIntent()))
             return true;
 
-        switch (item.getItemId()) {
-        // --- context menu items
-
-        case CONTEXT_MENU_BROADCAST_INTENT_ID: {
+        if (item.getItemId() == CONTEXT_MENU_BROADCAST_INTENT_ID) {
             intent = item.getIntent();
             getActivity().sendBroadcast(intent);
             return true;
-        }
-        case CONTEXT_MENU_EDIT_TASK_ID: {
+        } else if (item.getItemId() == CONTEXT_MENU_EDIT_TASK_ID) {
             itemId = item.getGroupId();
             mListener.onTaskListItemClicked(itemId);
             return true;
-        }
-        case CONTEXT_MENU_COPY_TASK_ID: {
+        } else if (item.getItemId() == CONTEXT_MENU_COPY_TASK_ID) {
             itemId = item.getGroupId();
             duplicateTask(itemId);
             return true;
-        }
-        case CONTEXT_MENU_DELETE_TASK_ID: {
+        } else if (item.getItemId() == CONTEXT_MENU_DELETE_TASK_ID) {
             itemId = item.getGroupId();
             Task task = taskService.fetchById(itemId, Task.ID, Task.UUID);
             if (task != null)
                 deleteTask(task);
             return true;
-        }
-        case CONTEXT_MENU_UNDELETE_TASK_ID: {
+        } else if (item.getItemId() == CONTEXT_MENU_UNDELETE_TASK_ID) {
             itemId = item.getGroupId();
             Task task = new Task();
             task.setId(itemId);
@@ -1377,8 +1369,7 @@ public class TaskListFragment extends SherlockListFragment implements OnSortSele
             taskService.save(task);
             loadTaskListContent(true);
             return true;
-        }
-        case CONTEXT_MENU_PURGE_TASK_ID: {
+        } else if (item.getItemId() == CONTEXT_MENU_PURGE_TASK_ID) {
             itemId = item.getGroupId();
             Task task = new Task();
             task.setId(itemId);
@@ -1386,19 +1377,15 @@ public class TaskListFragment extends SherlockListFragment implements OnSortSele
             taskService.purge(itemId);
             loadTaskListContent(true);
             return true;
-        }
-        default: {
+        } else {
             if (item.getItemId() < CONTEXT_MENU_PLUGIN_ID_FIRST)
                 return false;
             if (item.getItemId() - CONTEXT_MENU_PLUGIN_ID_FIRST >= contextItemExposers.length)
                 return false;
-
             AdapterContextMenuInfo adapterInfo = (AdapterContextMenuInfo) item.getMenuInfo();
             Task task = ((ViewHolder) adapterInfo.targetView.getTag()).task;
             contextItemExposers[item.getItemId() - CONTEXT_MENU_PLUGIN_ID_FIRST].invoke(task);
-
             return true;
-        }
         }
     }
 

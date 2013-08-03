@@ -80,18 +80,23 @@ public class ThemeService {
 
     public static int getThemeColor() {
         int theme = getTheme();
-        switch(theme) {
-        case R.style.Theme:
-        case R.style.Theme_Transparent:
-            return R.color.blue_theme_color;
-        case R.style.Theme_White:
-        case R.style.Theme_TransparentWhite:
-            return R.color.red_theme_color;
-        case R.style.Theme_White_Blue:
-        default:
-            return R.color.dark_blue_theme_color;
+        if ( theme == R.style.Theme ){
+            // do nothing
         }
-    }
+        if ( theme == R.style.Theme_Transparent ){
+            return R.color.blue_theme_color;
+        }
+        if ( theme == R.style.Theme_White ){
+            // do nothing
+        }
+        if ( theme == R.style.Theme_TransparentWhite ){
+            return R.color.red_theme_color;
+        }
+        if ( theme == R.style.Theme_White_Blue ){
+            //do nothing
+        }
+        return R.color.dark_blue_theme_color;
+  }
 
     public static int getEditDialogTheme() {
         boolean ics = AndroidUtilities.getSdkVersion() >= 14;
@@ -183,16 +188,15 @@ public class ThemeService {
             return R.drawable.icn_menu_refresh_tablet;
 
         if (theme == R.style.Theme_White_Alt) {
-            switch(lightDrawable) {
-            case R.drawable.ic_menu_save:
+            if (lightDrawable == R.drawable.ic_menu_save) {
                 return R.drawable.ic_menu_save_blue_alt;
-            case R.drawable.ic_menu_close:
+            } else if (lightDrawable == R.drawable.ic_menu_close) {
                 return R.drawable.ic_menu_close_blue_alt;
-            case R.drawable.ic_menu_mic:
+            } else if (lightDrawable == R.drawable.ic_menu_mic) {
                 return R.drawable.ic_menu_mic_blue_alt;
-            case R.drawable.ic_menu_attach:
+            } else if (lightDrawable == R.drawable.ic_menu_attach) {
                 return R.drawable.ic_menu_attach_blue_alt;
-            case R.drawable.list_settings:
+            } else if (lightDrawable == R.drawable.list_settings) {
                 return R.drawable.list_settings_white;
             }
         }
@@ -201,52 +205,51 @@ public class ThemeService {
             return lightDrawable;
 
 
-        switch(lightDrawable) {
-        case R.drawable.ic_menu_save:
+        if (lightDrawable == R.drawable.ic_menu_save) {
             return R.drawable.ic_menu_save;
-        case R.drawable.ic_menu_close:
+        } else if (lightDrawable == R.drawable.ic_menu_close) {
             return R.drawable.ic_menu_close;
-        case R.drawable.ic_menu_mic:
+        } else if (lightDrawable == R.drawable.ic_menu_mic) {
             return R.drawable.ic_menu_mic;
-        case R.drawable.ic_menu_attach:
+        } else if (lightDrawable == R.drawable.ic_menu_attach) {
             return R.drawable.ic_menu_attach;
-        case R.drawable.list_settings:
+        } else if (lightDrawable == R.drawable.list_settings) {
             return R.drawable.list_settings;
-        case R.drawable.icn_menu_refresh:
+        } else if (lightDrawable == R.drawable.icn_menu_refresh) {
             return R.drawable.icn_menu_refresh_dark;
-        case R.drawable.icn_menu_filters:
+        } else if (lightDrawable == R.drawable.icn_menu_filters) {
             return R.drawable.icn_menu_filters_dark;
-        case R.drawable.icn_featured_lists:
+        } else if (lightDrawable == R.drawable.icn_featured_lists) {
             return R.drawable.icn_featured_lists_dark;
-        case R.drawable.icn_menu_sort_by_size:
+        } else if (lightDrawable == R.drawable.icn_menu_sort_by_size) {
             return R.drawable.icn_menu_sort_by_size_dark;
-        case R.drawable.icn_menu_search:
+        } else if (lightDrawable == R.drawable.icn_menu_search) {
             return R.drawable.icn_menu_search_dark;
-        case R.drawable.icn_menu_friends:
+        } else if (lightDrawable == R.drawable.icn_menu_friends) {
             return R.drawable.icn_menu_friends_dark;
-        case R.drawable.icn_menu_lists:
+        } else if (lightDrawable == R.drawable.icn_menu_lists) {
             return R.drawable.icn_menu_lists_dark;
-        case R.drawable.icn_menu_plugins:
+        } else if (lightDrawable == R.drawable.icn_menu_plugins) {
             return R.drawable.icn_menu_plugins_dark;
-        case R.drawable.icn_menu_settings:
+        } else if (lightDrawable == R.drawable.icn_menu_settings) {
             return R.drawable.icn_menu_settings_dark;
-        case R.drawable.icn_menu_support:
+        } else if (lightDrawable == R.drawable.icn_menu_support) {
             return R.drawable.icn_menu_support_dark;
-        case R.drawable.icn_menu_tutorial:
+        } else if (lightDrawable == R.drawable.icn_menu_tutorial) {
             return R.drawable.icn_menu_tutorial_dark;
-        case R.drawable.filter_assigned:
+        } else if (lightDrawable == R.drawable.filter_assigned) {
             return R.drawable.filter_assigned_dark;
-        case R.drawable.filter_calendar:
+        } else if (lightDrawable == R.drawable.filter_calendar) {
             return R.drawable.filter_calendar_dark;
-        case R.drawable.filter_inbox:
+        } else if (lightDrawable == R.drawable.filter_inbox) {
             return R.drawable.filter_inbox_dark;
-        case R.drawable.waiting_on_me:
+        } else if (lightDrawable == R.drawable.waiting_on_me) {
             return R.drawable.waiting_on_me_dark;
-        case R.drawable.filter_pencil:
+        } else if (lightDrawable == R.drawable.filter_pencil) {
             return R.drawable.filter_pencil_dark;
-        case R.drawable.filter_sliders:
+        } else if (lightDrawable == R.drawable.filter_sliders) {
             return R.drawable.filter_sliders_dark;
-        case R.drawable.gl_lists:
+        } else if (lightDrawable == R.drawable.gl_lists) {
             return R.drawable.gl_lists_dark;
         }
 

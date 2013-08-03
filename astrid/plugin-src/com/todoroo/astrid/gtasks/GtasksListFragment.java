@@ -116,12 +116,10 @@ public class GtasksListFragment extends SubtasksListFragment {
 
     @Override
     public boolean handleOptionsMenuItemSelected(int id, Intent intent) {
-     // handle my own menus
-        switch (id) {
-        case MENU_REFRESH_ID:
+     if (id == MENU_REFRESH_ID) {
             refreshData(true);
             return true;
-        case MENU_CLEAR_COMPLETED_ID:
+        } else if (id == MENU_CLEAR_COMPLETED_ID) {
             clearCompletedTasks();
             return true;
         }

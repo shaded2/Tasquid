@@ -368,27 +368,21 @@ public class FilterListFragment extends SherlockListFragment {
 
     @Override
     public boolean onOptionsItemSelected(final MenuItem item) {
-        // handle my own menus
-        switch (item.getItemId()) {
-            case CONTEXT_MENU_SHORTCUT: {
-                AdapterContextMenuInfo info = (AdapterContextMenuInfo)item.getMenuInfo();
-                final Intent shortcutIntent = item.getIntent();
-                FilterListItem filter = ((FilterAdapter.ViewHolder)info.targetView.getTag()).item;
-                if(filter instanceof Filter)
-                    showCreateShortcutDialog(getActivity(), shortcutIntent, (Filter)filter);
-
-                return true;
-            }
-            case CONTEXT_MENU_INTENT: {
-                Intent intent = item.getIntent();
-                getActivity().startActivityForResult(intent, REQUEST_CUSTOM_INTENT);
-                return true;
-            }
-            default: {
-                TaskListFragment tasklist = (TaskListFragment) getActivity().getSupportFragmentManager().findFragmentByTag(TaskListFragment.TAG_TASKLIST_FRAGMENT);
-                if (tasklist != null && tasklist.isInLayout())
-                    return tasklist.onOptionsItemSelected(item);
-            }
+        if (item.getItemId() == CONTEXT_MENU_SHORTCUT) {
+            AdapterContextMenuInfo info = (AdapterContextMenuInfo)item.getMenuInfo();
+            final Intent shortcutIntent = item.getIntent();
+            FilterListItem filter = ((FilterAdapter.ViewHolder)info.targetView.getTag()).item;
+            if(filter instanceof Filter)
+                showCreateShortcutDialog(getActivity(), shortcutIntent, (Filter)filter);
+            return true;
+        } else if (item.getItemId() == CONTEXT_MENU_INTENT) {
+            Intent intent = item.getIntent();
+            getActivity().startActivityForResult(intent, REQUEST_CUSTOM_INTENT);
+            return true;
+        } else {
+            TaskListFragment tasklist = (TaskListFragment) getActivity().getSupportFragmentManager().findFragmentByTag(TaskListFragment.TAG_TASKLIST_FRAGMENT);
+            if (tasklist != null && tasklist.isInLayout())
+                return tasklist.onOptionsItemSelected(item);
         }
         return false;
     }

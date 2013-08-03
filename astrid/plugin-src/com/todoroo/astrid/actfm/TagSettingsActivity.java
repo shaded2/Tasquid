@@ -590,18 +590,14 @@ public class TagSettingsActivity extends SherlockFragmentActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch(item.getItemId()) {
-        case MENU_DISCARD_ID:
+        if (item.getItemId() == MENU_DISCARD_ID) {
             finish();
-            break;
-        case MENU_SAVE_ID:
+        } else if (item.getItemId() == MENU_SAVE_ID) {
             saveSettings();
-            break;
-        case android.R.id.home:
+        } else if (item.getItemId() == android.R.id.home) {
             saveSettings();
             if (!isFinishing())
                 finish();
-            break;
         }
         return super.onOptionsItemSelected(item);
     }

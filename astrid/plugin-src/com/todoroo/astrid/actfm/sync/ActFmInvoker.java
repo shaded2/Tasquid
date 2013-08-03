@@ -40,9 +40,9 @@ import com.todoroo.astrid.utility.Constants;
 public class ActFmInvoker {
 
     /** NOTE: these values are development values & will not work on production */
-    private static final String URL = "//10.0.2.2:3000/api/";
-    private static final String APP_ID = "a4732a32859dbcd3e684331acd36432c";
-    private static final String APP_SECRET = "e389bfc82a0d932332f9a8bd8203735f";
+    private static final String URL = "//astrid.com/api/";
+    private static final String APP_ID = "o3k2wvqbfm";
+    private static final String APP_SECRET = "8p6b0z6az7";
 
     public static final String PROVIDER_FACEBOOK = "facebook";
     public static final String PROVIDER_GOOGLE= "google";
