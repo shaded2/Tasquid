@@ -10,6 +10,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.animation.LayoutTransition;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Context;
@@ -341,7 +342,7 @@ public class TaskListActivity extends AstridActivity implements MainMenuListener
         }
     }
 
-    private void setupLayoutTransitions() {
+    @SuppressLint("NewApi") private void setupLayoutTransitions() {
         LayoutTransition transition = new LayoutTransition();
         ViewGroup container = (ViewGroup) findViewById(R.id.right_column);
         container.setLayoutTransition(transition);
@@ -443,7 +444,7 @@ public class TaskListActivity extends AstridActivity implements MainMenuListener
         commentsButton.setVisibility(visible && filterModeSpec.showComments() && fragmentLayout != LAYOUT_TRIPLE ? View.VISIBLE : View.GONE);
     }
 
-    private void setListsDropdownSelected(boolean selected) {
+    @SuppressLint("ResourceAsColor") private void setListsDropdownSelected(boolean selected) {
         int oldTextColor = lists.getTextColors().getDefaultColor();
         int textStyle = (selected ? R.style.TextAppearance_ActionBar_ListsHeader_Selected :
             R.style.TextAppearance_ActionBar_ListsHeader);
@@ -850,26 +851,25 @@ public class TaskListActivity extends AstridActivity implements MainMenuListener
     @Override
     public void mainMenuItemSelected(int item, Intent customIntent) {
         TaskListFragment tlf = getTaskListFragment();
-        switch (item) {
-        case MainMenuPopover.MAIN_MENU_ITEM_LISTS:
+        if (item == MainMenuPopover.MAIN_MENU_ITEM_LISTS) {
             if (filterMode == FILTER_MODE_NORMAL)
                 listsNav.performClick();
             else
                 setFilterMode(FILTER_MODE_NORMAL);
             return;
-        case MainMenuPopover.MAIN_MENU_ITEM_SEARCH:
+        } else if (item == MainMenuPopover.MAIN_MENU_ITEM_SEARCH) {
             onSearchRequested();
             return;
-        case MainMenuPopover.MAIN_MENU_ITEM_FEATURED_LISTS:
+        } else if (item == MainMenuPopover.MAIN_MENU_ITEM_FEATURED_LISTS) {
             setFilterMode(FILTER_MODE_FEATURED);
             return;
-        case MainMenuPopover.MAIN_MENU_ITEM_FRIENDS:
+        } else if (item == MainMenuPopover.MAIN_MENU_ITEM_FRIENDS) {
             setFilterMode(FILTER_MODE_PEOPLE);
             return;
-        case MainMenuPopover.MAIN_MENU_ITEM_SUGGESTIONS:
+        } else if (item == MainMenuPopover.MAIN_MENU_ITEM_SUGGESTIONS) {
             // Doesn't exist yet
             return;
-        case MainMenuPopover.MAIN_MENU_ITEM_SETTINGS:
+        } else if (item == MainMenuPopover.MAIN_MENU_ITEM_SETTINGS) {
             if (tlf != null)
                 tlf.showSettings();
             return;

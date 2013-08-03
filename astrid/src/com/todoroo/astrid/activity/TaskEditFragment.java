@@ -1224,32 +1224,29 @@ ViewPager.OnPageChangeListener, EditNoteActivity.UpdatesChangedListener {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-        case MENU_SAVE_ID:
+        if (item.getItemId() == MENU_SAVE_ID) {
             saveButtonClick();
             return true;
-        case MENU_DISCARD_ID:
+        } else if (item.getItemId() == MENU_DISCARD_ID) {
             discardButtonClick();
             return true;
-        case MENU_ATTACH_ID:
+        } else if (item.getItemId() == MENU_ATTACH_ID) {
             startAttachFile();
             return true;
-        case MENU_RECORD_ID:
+        } else if (item.getItemId() == MENU_RECORD_ID) {
             startRecordingAudio();
             return true;
-        case MENU_COMMENTS_REFRESH_ID: {
+        } else if (item.getItemId() == MENU_COMMENTS_REFRESH_ID) {
             if (editNotes != null)
                 editNotes.refreshData();
             return true;
-        }
-        case MENU_SHOW_COMMENTS_ID: {
+        } else if (item.getItemId() == MENU_SHOW_COMMENTS_ID) {
             Intent intent = new Intent(getActivity(), CommentsActivity.class);
             intent.putExtra(TaskCommentsFragment.EXTRA_TASK, model.getId());
             startActivity(intent);
             AndroidUtilities.callOverridePendingTransition(getActivity(), R.anim.slide_left_in, R.anim.slide_left_out);
             return true;
-        }
-        case android.R.id.home:
+        } else if (item.getItemId() == android.R.id.home) {
             if (title.getText().length() == 0)
                 discardButtonClick();
             else

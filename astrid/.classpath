@@ -31,5 +31,6 @@
 	<classpathentry kind="lib" path="libs/CWAC-SackOfViewsAdapter.jar"/>
 	<classpathentry kind="lib" path="libs/gcm.jar" sourcepath="libs/gcm-src.jar"/>
 	<classpathentry kind="lib" path="libs/crittercism_v3_0_7_sdkonly.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

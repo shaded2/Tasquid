@@ -177,8 +177,7 @@ public class PersonViewFragment extends TaskListFragment {
 
     @Override
     public boolean handleOptionsMenuItemSelected(int id, Intent intent) {
-        switch (id) {
-        case MENU_REFRESH_ID:
+        if (id == MENU_REFRESH_ID) {
             refreshData();
             return true;
         }
