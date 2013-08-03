@@ -781,12 +781,10 @@ public class TagViewFragment extends TaskListFragment {
 
     @Override
     public boolean handleOptionsMenuItemSelected(int id, Intent intent) {
-        // handle my own menus
-        switch (id) {
-        case MENU_REFRESH_ID:
+        if (id == MENU_REFRESH_ID) {
             refreshData();
             return true;
-        case MENU_LIST_SETTINGS_ID:
+        } else if (id == MENU_LIST_SETTINGS_ID) {
             settingsListener.onClick(null);
             return true;
         }
