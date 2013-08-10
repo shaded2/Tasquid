@@ -21,3 +21,9 @@ api/bin
 astrid/bin
 actionbarsherlock/library/bin
 tests-sync/bin
+
+actionbarsherlock/*
+android-aac-enc/*
+facebook/facebook/.settings
+greendroid/GreenDroid/.settings
+viewPagerIndicator/library/.settings
