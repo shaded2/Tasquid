@@ -12,7 +12,7 @@ import android.app.Activity;
 import android.content.Context;
 
 import com.localytics.android.LocalyticsSession;
-import com.timsu.astrid.R;
+import com.eztransition.tasquid.R;
 import com.todoroo.andlib.utility.Preferences;
 import com.todoroo.astrid.utility.Constants;
 

@@ -23,7 +23,7 @@ import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
-import com.timsu.astrid.R;
+import com.eztransition.tasquid.R;
 
 /**
  * Displays an About dialog.

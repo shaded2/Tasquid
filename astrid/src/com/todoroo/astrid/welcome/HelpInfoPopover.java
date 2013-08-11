@@ -18,7 +18,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.timsu.astrid.R;
+import com.eztransition.tasquid.R;
 import com.todoroo.astrid.utility.AstridPreferences;
 
 /**

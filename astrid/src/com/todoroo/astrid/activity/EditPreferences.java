@@ -32,7 +32,7 @@ import android.text.TextUtils;
 import android.widget.Toast;
 
 import com.crittercism.app.Crittercism;
-import com.timsu.astrid.R;
+import com.eztransition.tasquid.R;
 import com.todoroo.andlib.service.Autowired;
 import com.todoroo.andlib.service.ContextManager;
 import com.todoroo.andlib.service.DependencyInjectionService;

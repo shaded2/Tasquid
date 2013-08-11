@@ -5,7 +5,7 @@
 ** See the file "LICENSE" for the full license governing this code. 
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.timsu.astrid"
+          package="com.eztransition.tasquid"
           android:versionName="4.6.5"
           android:versionCode="306">
           
@@ -142,7 +142,7 @@
         </intent-filter>
     </activity>
     <!-- Legacy Task List shortcut activity -->
-    <activity android:name=".activities.TaskList">
+    <activity android:name="com.timsu.astrid.activities.TaskList">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
         </intent-filter>
@@ -414,7 +414,7 @@
 	  </intent-filter>
 	</receiver>
 	
-    <service android:name=".GCMIntentService" />
+    <service android:name="com.timsu.astrid.GCMIntentService" />
     
     <receiver android:name="com.todoroo.astrid.actfm.sync.ActFmSyncThread$NetworkStateChangedReceiver">
         <intent-filter>

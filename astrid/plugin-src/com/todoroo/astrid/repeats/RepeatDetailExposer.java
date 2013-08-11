@@ -17,7 +17,7 @@ import android.content.res.Resources;
 import com.google.ical.values.Frequency;
 import com.google.ical.values.RRule;
 import com.google.ical.values.WeekdayNum;
-import com.timsu.astrid.R;
+import com.eztransition.tasquid.R;
 import com.todoroo.astrid.api.AstridApiConstants;
 import com.todoroo.astrid.core.PluginServices;
 import com.todoroo.astrid.data.Task;
