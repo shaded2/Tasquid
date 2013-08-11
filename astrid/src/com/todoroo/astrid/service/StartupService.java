@@ -26,7 +26,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.crittercism.app.Crittercism;
-import com.timsu.astrid.R;
+import com.eztransition.tasquid.R;
 import com.todoroo.andlib.data.DatabaseDao.ModelUpdateListener;
 import com.todoroo.andlib.data.TodorooCursor;
 import com.todoroo.andlib.service.Autowired;
