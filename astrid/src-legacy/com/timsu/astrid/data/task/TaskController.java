@@ -22,12 +22,12 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.util.Log;
 
+import com.eztransiton.tasquid.provider.Astrid2TaskProvider;
 import com.timsu.astrid.data.LegacyAbstractController;
 import com.timsu.astrid.data.alerts.AlertController;
 import com.timsu.astrid.data.sync.SyncDataController;
 import com.timsu.astrid.data.task.AbstractTaskModel.RepeatInfo;
 import com.timsu.astrid.data.task.AbstractTaskModel.TaskModelDatabaseHelper;
-import com.todoroo.astrid.provider.Astrid2TaskProvider;
 import com.todoroo.astrid.widget.TasksWidget.WidgetUpdateService;
 
 /**

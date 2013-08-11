@@ -15,12 +15,12 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.eztransiton.tasquid.provider.Astrid2TaskProvider;
 import com.timsu.astrid.data.LegacyAbstractController;
 import com.timsu.astrid.data.tag.AbstractTagModel.TagModelDatabaseHelper;
 import com.timsu.astrid.data.tag.TagToTaskMapping.TagToTaskMappingDatabaseHelper;
 import com.timsu.astrid.data.task.AbstractTaskModel.TaskModelDatabaseHelper;
 import com.timsu.astrid.data.task.TaskIdentifier;
-import com.todoroo.astrid.provider.Astrid2TaskProvider;
 
 /** Controller for Tag-related operations */
 @SuppressWarnings("nls")

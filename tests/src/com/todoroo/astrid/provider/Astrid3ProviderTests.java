@@ -10,6 +10,7 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.net.Uri;
 
+import com.eztransiton.tasquid.provider.Astrid3ContentProvider;
 import com.todoroo.andlib.data.Property.IntegerProperty;
 import com.todoroo.andlib.data.Property.StringProperty;
 import com.todoroo.astrid.api.AstridApiConstants;

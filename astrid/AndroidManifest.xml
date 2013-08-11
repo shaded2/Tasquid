@@ -6,8 +6,8 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.eztransition.tasquid"
-          android:versionName="4.6.5"
-          android:versionCode="306">
+          android:versionName="4.6.6"
+          android:versionCode="307">
           
   <!-- widgets, alarms, and services will break if Astrid is installed on SD card -->
   <!--    android:installLocation="internalOnly"> -->
@@ -240,21 +240,21 @@
 
     <!-- ======================================================= Providers = -->
 
-    <provider android:name="com.todoroo.astrid.provider.Astrid2TaskProvider"
-              android:authorities="com.timsu.astrid.tasksprovider"
+    <provider android:name="com.eztransiton.tasquid.provider.Astrid2TaskProvider"
+              android:authorities="com.eztransition.tasquid.tasksprovider"
               android:multiprocess="true"
               android:grantUriPermissions="true"
               android:readPermission="com.timsu.astrid.permission.READ_TASKS"/>
 
-    <provider android:name="com.todoroo.astrid.provider.Astrid3ContentProvider"
-              android:authorities="com.todoroo.astrid"
+    <provider android:name="com.eztransiton.tasquid.provider.Astrid3ContentProvider"
+              android:authorities="com.eztransition.tasquid"
               android:multiprocess="true"
               android:grantUriPermissions="true"
               android:readPermission="com.todoroo.astrid.READ"
               android:writePermission="com.todoroo.astrid.WRITE"/>
 
-    <provider android:name="com.todoroo.astrid.provider.SqlContentProvider"
-              android:authorities="com.todoroo.astrid.private"
+    <provider android:name="com.eztransiton.tasquid.provider.SqlContentProvider"
+              android:authorities="com.eztransition.tasquid.private"
               android:multiprocess="true"
               android:grantUriPermissions="true"
               android:readPermission="com.todoroo.astrid.READ"

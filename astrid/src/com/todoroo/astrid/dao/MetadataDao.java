@@ -11,6 +11,7 @@ import java.util.HashSet;
 import android.content.ContentValues;
 import android.database.Cursor;
 
+import com.eztransiton.tasquid.provider.Astrid2TaskProvider;
 import com.todoroo.andlib.data.AbstractModel;
 import com.todoroo.andlib.data.DatabaseDao;
 import com.todoroo.andlib.data.Property;
@@ -31,7 +32,6 @@ import com.todoroo.astrid.data.OutstandingEntry;
 import com.todoroo.astrid.data.RemoteModel;
 import com.todoroo.astrid.data.Task;
 import com.todoroo.astrid.data.TaskOutstanding;
-import com.todoroo.astrid.provider.Astrid2TaskProvider;
 import com.todoroo.astrid.service.StatisticsConstants;
 import com.todoroo.astrid.service.StatisticsService;
 import com.todoroo.astrid.tags.TaskToTagMetadata;

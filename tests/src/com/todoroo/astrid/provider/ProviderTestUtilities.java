@@ -5,6 +5,7 @@
  */
 package com.todoroo.astrid.provider;
 
+import com.eztransiton.tasquid.provider.Astrid3ContentProvider;
 import com.todoroo.andlib.data.AbstractDatabase;
 import com.todoroo.astrid.test.DatabaseTestCase;
 

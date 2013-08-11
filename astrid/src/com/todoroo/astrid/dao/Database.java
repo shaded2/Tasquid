@@ -10,6 +10,8 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.crittercism.app.Crittercism;
+import com.eztransiton.tasquid.provider.Astrid2TaskProvider;
+import com.eztransiton.tasquid.provider.Astrid3ContentProvider;
 import com.todoroo.andlib.data.AbstractDatabase;
 import com.todoroo.andlib.data.AbstractModel;
 import com.todoroo.andlib.data.Property;
@@ -34,8 +36,6 @@ import com.todoroo.astrid.data.UserActivity;
 import com.todoroo.astrid.data.UserActivityOutstanding;
 import com.todoroo.astrid.data.WaitingOnMe;
 import com.todoroo.astrid.data.WaitingOnMeOutstanding;
-import com.todoroo.astrid.provider.Astrid2TaskProvider;
-import com.todoroo.astrid.provider.Astrid3ContentProvider;
 import com.todoroo.astrid.widget.TasksWidget;
 
 /**

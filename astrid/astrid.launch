@@ -15,17 +15,15 @@
 <stringAttribute key="com.android.ide.eclipse.adt.target" value="MANUAL"/>
 <booleanAttribute key="com.android.ide.eclipse.adt.wipedata" value="false"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/astrid"/>
-<listEntry value="/astrid/AndroidManifest.xml"/>
+<listEntry value="/tasquid"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>
-<listEntry value="1"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
 <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
 <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ALLOW_TERMINATE" value="true"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="astrid"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="tasquid"/>
 </launchConfiguration>
