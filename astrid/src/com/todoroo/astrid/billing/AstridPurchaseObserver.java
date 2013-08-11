@@ -5,7 +5,7 @@ import android.content.DialogInterface;
 import android.os.Handler;
 import android.util.Log;
 
-import com.timsu.astrid.R;
+import com.eztransition.tasquid.R;
 import com.todoroo.andlib.service.Autowired;
 import com.todoroo.andlib.service.DependencyInjectionService;
 import com.todoroo.andlib.utility.DialogUtilities;

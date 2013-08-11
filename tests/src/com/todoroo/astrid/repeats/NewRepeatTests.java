@@ -12,11 +12,11 @@ import java.util.List;
 
 import android.content.Intent;
 
+import com.eztransition.tasquid.R;
 import com.google.ical.values.Frequency;
 import com.google.ical.values.RRule;
 import com.google.ical.values.Weekday;
 import com.google.ical.values.WeekdayNum;
-import com.timsu.astrid.R;
 import com.todoroo.andlib.data.TodorooCursor;
 import com.todoroo.andlib.service.Autowired;
 import com.todoroo.andlib.sql.Query;

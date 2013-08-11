@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
+import com.eztransition.tasquid.R;
 import com.google.ical.values.Frequency;
 import com.google.ical.values.RRule;
-import com.timsu.astrid.R;
 import com.todoroo.andlib.utility.Preferences;
 import com.todoroo.astrid.data.Task;
 import com.todoroo.astrid.test.DatabaseTestCase;
