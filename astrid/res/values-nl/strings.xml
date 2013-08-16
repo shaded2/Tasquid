@@ -3116,16 +3116,16 @@ Je kunt doorgaan met het gebruiken van deze applicatie maar je kunt geen aankope
 -->
 
     
-    <string name="widget_mini">- Astrid Mini -</string>
+    <string name="widget_mini">- Tasquid Mini -</string>
     
     <!-- Resources for power pack widget -->
     
-    <string name="PPW_widget_42_label">Old Astrid 4x2</string>
-    <string name="PPW_widget_43_label">Old Astrid 4x3</string>
-    <string name="PPW_widget_44_label">Old Astrid 4x4</string>
-    <string name="PPW_widget_v11_label">- Astrid -</string>
-    <string name="PPW_widget_custom_label">Astrid Gepersonaliseerd Startscherm Premium</string>
-    <string name="PPW_widget_custom_launcherpro_label">Astrid Startscherm Pro Premium</string>
+    <string name="PPW_widget_42_label">Old Tasquid 4x2</string>
+    <string name="PPW_widget_43_label">Old Tasquid 4x3</string>
+    <string name="PPW_widget_44_label">Old Tasquid 4x4</string>
+    <string name="PPW_widget_v11_label">- Tasquid -</string>
+    <string name="PPW_widget_custom_label">Tasquid Gepersonaliseerd Startscherm Premium</string>
+    <string name="PPW_widget_custom_launcherpro_label">Tasquid Startscherm Pro Premium</string>
     
     <string name="PPW_configure_title">Widget instellen</string>
     
@@ -3139,7 +3139,7 @@ Je kunt doorgaan met het gebruiken van deze applicatie maar je kunt geen aankope
     <string name="PPW_past_due">Verlopen:</string>
     
     <string name="PPW_old_astrid_notice">Sorry! Je hebt tenminste versie 3.6 van 
-Astrid nodig om deze widget te gebruiken.</string>
+Tasquid nodig om deze widget te gebruiken.</string>
     
     <string-array name="PPW_encouragements">
         <!-- general encouragements -->

@@ -3128,16 +3128,16 @@ non potrai fare acquisti.</string>
 -->
 
     
-    <string name="widget_mini">- Astrid Mini -</string>
+    <string name="widget_mini">- Tasquid Mini -</string>
     
     <!-- Resources for power pack widget -->
     
-    <string name="PPW_widget_42_label">Old Astrid 4x2</string>
-    <string name="PPW_widget_43_label">Old Astrid 4x3</string>
-    <string name="PPW_widget_44_label">Old Astrid 4x4</string>
-    <string name="PPW_widget_v11_label">- Astrid -</string>
-    <string name="PPW_widget_custom_label">Astrid Custom Launcher Premium</string>
-    <string name="PPW_widget_custom_launcherpro_label">Astrid Launcher Pro Premium</string>
+    <string name="PPW_widget_42_label">Old Tasquid 4x2</string>
+    <string name="PPW_widget_43_label">Old Tasquid 4x3</string>
+    <string name="PPW_widget_44_label">Old Tasquid 4x4</string>
+    <string name="PPW_widget_v11_label">- Tasquid -</string>
+    <string name="PPW_widget_custom_label">Tasquid Custom Launcher Premium</string>
+    <string name="PPW_widget_custom_launcherpro_label">Tasquid Launcher Pro Premium</string>
     
     <string name="PPW_configure_title">Configura Widget</string>
     
@@ -3150,7 +3150,7 @@ non potrai fare acquisti.</string>
     <string name="PPW_due">Entro:</string>
     <string name="PPW_past_due">Già terminato:</string>
     
-    <string name="PPW_old_astrid_notice">Per usare questo widget ti serve almeno la versione 3.6 di Astrid. Mi dispiace!</string>
+    <string name="PPW_old_astrid_notice">Per usare questo widget ti serve almeno la versione 3.6 di Tasquid. Mi dispiace!</string>
     
     <string-array name="PPW_encouragements">
         <!-- general encouragements -->
