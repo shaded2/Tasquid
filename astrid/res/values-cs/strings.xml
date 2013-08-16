@@ -810,7 +810,7 @@
   <string name="TPl_notification">Aktivní časovače pro %s!</string>
   <string name="TFE_workingOn">Úkol je časován</string>
   <string name="voice_create_prompt">Mluvte pro vytvoření úkolu</string>
-  <string name="welcome_title_1">Vítej v Astrid!</string>
+  <string name="welcome_title_1">Vítej v Tasquid!</string>
   <string name="welcome_body_5">and much more!</string>
   <string name="PPW_configure_title">Konfigurovat widget</string>
   <string name="PPW_color">Barva widgetu</string>

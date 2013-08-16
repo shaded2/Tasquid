@@ -3059,7 +3059,7 @@
   <!-- slide 30a-->
   <string name="welcome_setting">Mostrar tutorial</string>
   
-  <string name="welcome_title_1">Bem vindo ao Astrid!</string>
+  <string name="welcome_title_1">Bem vindo ao Tasquid!</string>
 
   <!-- slide 2a -->
   <string name="welcome_title_2">Criar listas</string>
@@ -3100,7 +3100,7 @@
   <string name="welcome_body_6">Toque para inserir notas,\ndefinir lembretes,\ne muito mais!</string>
   <string name="welcome_body_7">Nome de acesso</string>
   
-  <string name="welcome_body_7_return">Toque no Astrid para retornar.</string>
+  <string name="welcome_body_7_return">Toque no Tasquid para retornar.</string>
   
   <!-- slide 1c -->
   <string name="welcome_next">Próximo</string>

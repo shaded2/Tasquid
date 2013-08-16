@@ -586,7 +586,7 @@
   <string name="EPr_voiceRemindersEnabled_desc_enabled">Astrid vil lese opp oppgaver ved påminnelse</string>
   <string name="EPr_voiceRemindersEnabled_desc_disabled">Astrid vil spille en ringetone ved påminnelse</string>
   <string name="EPr_voice_header">Taleinndatainnstillinger</string>
-  <string name="welcome_title_1">Velkommen til Astrid!</string>
+  <string name="welcome_title_1">Velkommen til Tasquid!</string>
   <string name="welcome_body_5">and much more!</string>
   <string name="PPW_configure_title">Konfigurer widget</string>
   <string name="PPW_color">Fargen til widget</string>

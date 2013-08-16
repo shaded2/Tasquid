@@ -3086,7 +3086,7 @@ you get stuff done. It features reminders, tags, sync, Locale plug-in, a widget 
   <!-- slide 30a-->
   <string name="welcome_setting">チュートリアルを表示する</string>
   
-  <string name="welcome_title_1">Welcome to Astrid!</string>
+  <string name="welcome_title_1">Welcome to Tasquid!</string>
 
   <!-- slide 2a -->
   <string name="welcome_title_2">リストを作る</string>
@@ -3127,7 +3127,7 @@ you get stuff done. It features reminders, tags, sync, Locale plug-in, a widget 
   <string name="welcome_body_6">タップしてメモを加える、\nリマインダーを設定する、\nそしてもっと！</string>
   <string name="welcome_body_7">Login</string>
   
-  <string name="welcome_body_7_return">Astridをタップして戻る</string>
+  <string name="welcome_body_7_return">Tasquidをタップして戻る</string>
   
   <!-- slide 1c -->
   <string name="welcome_next">次へ</string>

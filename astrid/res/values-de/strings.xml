@@ -3058,7 +3058,7 @@ Sind Sie sicher, dass Sie mit Astrid.com synchronisieren möchten?</string>
   <!-- slide 30a-->
   <string name="welcome_setting">Tutorial anzeigen</string>
   
-  <string name="welcome_title_1">Willkommen zu Astrid</string>
+  <string name="welcome_title_1">Willkommen zu Tasquid</string>
 
   <!-- slide 2a -->
   <string name="welcome_title_2">Erstelle Listen</string>
@@ -3099,7 +3099,7 @@ Sind Sie sicher, dass Sie mit Astrid.com synchronisieren möchten?</string>
   <string name="welcome_body_6">Zum Hinzufügen von Notizen anklicken\nErinnerungen einstellen\nund vieles mehr!</string>
   <string name="welcome_body_7">Anmelden</string>
   
-  <string name="welcome_body_7_return">Berühren Sie Astrid\num zurückzukehren.</string>
+  <string name="welcome_body_7_return">Berühren Sie Tasquid\num zurückzukehren.</string>
   
   <!-- slide 1c -->
   <string name="welcome_next">Weiter</string>

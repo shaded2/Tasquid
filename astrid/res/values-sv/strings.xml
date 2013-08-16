@@ -3066,7 +3066,7 @@ kommer inte att kunna utföra köp.</string>
   <!-- slide 30a-->
   <string name="welcome_setting">Visa handledning</string>
   
-  <string name="welcome_title_1">Välkommen till Astrid!</string>
+  <string name="welcome_title_1">Välkommen till Tasquid!</string>
 
   <!-- slide 2a -->
   <string name="welcome_title_2">Göra listor</string>
@@ -3107,7 +3107,7 @@ kommer inte att kunna utföra köp.</string>
   <string name="welcome_body_6">Klicka för att göra anteckningar,\nställa in påminnelser,\noch mycket annat!</string>
   <string name="welcome_body_7">Logga in</string>
   
-  <string name="welcome_body_7_return">Klicka på Astrid för att återvända.</string>
+  <string name="welcome_body_7_return">Klicka på Tasquid för att återvända.</string>
   
   <!-- slide 1c -->
   <string name="welcome_next">Nästa</string>

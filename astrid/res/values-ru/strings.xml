@@ -3069,7 +3069,7 @@
   <!-- slide 30a-->
   <string name="welcome_setting">Показать справку</string>
   
-  <string name="welcome_title_1">Добро пожаловать в Astrid!</string>
+  <string name="welcome_title_1">Добро пожаловать в Tasquid!</string>
 
   <!-- slide 2a -->
   <string name="welcome_title_2">Создать списки</string>
@@ -3110,7 +3110,7 @@
   <string name="welcome_body_6">Нажмите чтобы добавить заметки,\nустановить напоминания,\nи многое другое!</string>
   <string name="welcome_body_7">Вход</string>
   
-  <string name="welcome_body_7_return">Нажмите Astrid, чтобы вернуться назад.</string>
+  <string name="welcome_body_7_return">Нажмите Tasquid, чтобы вернуться назад.</string>
   
   <!-- slide 1c -->
   <string name="welcome_next">Далее</string>

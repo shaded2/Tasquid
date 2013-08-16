@@ -3063,7 +3063,7 @@
   <!-- slide 30a-->
   <string name="welcome_setting">Öğreticiyi göster</string>
   
-  <string name="welcome_title_1">Astrid\'e Hoş geldiniz!</string>
+  <string name="welcome_title_1">Tasquid\'e Hoş geldiniz!</string>
 
   <!-- slide 2a -->
   <string name="welcome_title_2">Liste hazırla</string>
@@ -3104,7 +3104,7 @@
   <string name="welcome_body_6">Not eklemek,\nhatırlatma kurmak,\nve daha fazlası için dokunun!</string>
   <string name="welcome_body_7">Oturum Aç</string>
   
-  <string name="welcome_body_7_return">Geri dönmek için Astrid\'e dokunun.</string>
+  <string name="welcome_body_7_return">Geri dönmek için Tasquid\'e dokunun.</string>
   
   <!-- slide 1c -->
   <string name="welcome_next">İleri</string>
