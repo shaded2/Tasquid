@@ -2329,11 +2329,11 @@ ale nie będziesz mógł robić zakupów.</string>
 
   <!-- Titles for user reengagement notifications -->
   <string-array name="rmd_reengage_notif_titles">
-    <item>A note from Astrid</item>
+    <item>A note from Tasquid</item>
     <!-- %s -> first name -->
     <item>Memo for %s.</item> 
-    <item>Your Astrid digest</item>
-    <item>Przypomnienia z Astrid</item>
+    <item>Your Tasquid digest</item>
+    <item>Przypomnienia z Tasquid</item>
   </string-array>
     
   <string name="rmd_reengage_name_default">Ty</string>
@@ -2355,7 +2355,7 @@ ale nie będziesz mógł robić zakupów.</string>
   <!-- Speech bubble options for astrid in reengagement notifs when no tasks present -->
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Nie chcesz się zorganizować?</item>
-    <item>Nazywam się Astrid! Jestem tu, by Ci pomóc zrobić więcej!</item>
+    <item>Nazywam się Tasquid! Jestem tu, by Ci pomóc zrobić więcej!</item>
     <item>Wyglądasz na zajętego! Pozwól, że zabiorę trochę tych zadań.</item>
     <item>Mogę Ci pomóc mieć na uwadze wszystkie szczegóły Twojego życia.</item>
     <item>Na serio chcesz zrobić coś jeszcze? Ja też!</item>
@@ -2370,9 +2370,9 @@ ale nie będziesz mógł robić zakupów.</string>
   <!-- Reminder Preference: Reminders Enabled Title -->
   <string name="rmd_EPr_enabled_title">Przypomnienia włączone?</string>
   <!-- Reminder Preference Reminders Enabled Description (true) -->
-  <string name="rmd_EPr_enabled_desc_true">Przypomnienia Astrid są włączone (to normalne)</string>
+  <string name="rmd_EPr_enabled_desc_true">Przypomnienia Tasquid są włączone (to normalne)</string>
   <!-- Reminder Preference Reminders Enabled Description (false) -->
-  <string name="rmd_EPr_enabled_desc_false">Przypomnienia Astrid nigdy nie pojawią się na Twoim telefonie</string>  
+  <string name="rmd_EPr_enabled_desc_false">Przypomnienia Tasquid nigdy nie pojawią się na Twoim telefonie</string>  
     
   <!-- Reminder Preference: Quiet Hours Start Title -->
   <string name="rmd_EPr_quiet_hours_start_title">Początek czasu wyciszenia</string>
@@ -2422,23 +2422,23 @@ ale nie będziesz mógł robić zakupów.</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Title -->
   <string name="rmd_EPr_multiple_maxvolume_title">Maksymalna głośność dla wielu dzwonków przypomnień</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (true) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_true">Astrid ustawi maksymalną głośność dla wielu dzwonków przypomnień</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_true">Tasquid ustawi maksymalną głośność dla wielu dzwonków przypomnień</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (false) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_false">Astrid będzie korzystał z systemowego ustawienia głośności</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_false">Tasquid będzie korzystał z systemowego ustawienia głośności</string>
 
   <!-- Reminder Preference: Vibrate Title -->
   <string name="rmd_EPr_vibrate_title">Ostrzeżenie wibracyjne</string>
   <!-- Reminder Preference: Vibrate Description (true) -->
-  <string name="rmd_EPr_vibrate_desc_true">Astrid powiadomi wibracjami podczas wysyłania powiadomienia</string>
+  <string name="rmd_EPr_vibrate_desc_true">Tasquid powiadomi wibracjami podczas wysyłania powiadomienia</string>
   <!-- Reminder Preference: Vibrate Description (false) -->
-  <string name="rmd_EPr_vibrate_desc_false">Astrid nie będzie powiadamiał wibracjami podczas wysyłania powiadomienia</string>
+  <string name="rmd_EPr_vibrate_desc_false">Tasquid nie będzie powiadamiał wibracjami podczas wysyłania powiadomienia</string>
 
   <!-- Reminder Preference: Nagging Title -->  
-  <string name="rmd_EPr_nagging_title">Astrid Zachęta</string>
+  <string name="rmd_EPr_nagging_title">Tasquid Zachęta</string>
   <!-- Reminder Preference: Nagging Description (true) -->
-  <string name="rmd_EPr_nagging_desc_true">Astrid pokaże się dla zachęty podczas przypomnienia</string>
+  <string name="rmd_EPr_nagging_desc_true">Tasquid pokaże się dla zachęty podczas przypomnienia</string>
   <!-- Reminder Preference: Nagging Description (false) -->
-  <string name="rmd_EPr_nagging_desc_false">Astrid nie daje żadnych wiadomości zachęty</string>
+  <string name="rmd_EPr_nagging_desc_false">Tasquid nie daje żadnych wiadomości zachęty</string>
 
   <!-- Reminder Preference: Snooze Dialog Title -->  
   <string name="rmd_EPr_snooze_dialog_title">Tekst drzemki HH:MM</string>
@@ -2575,7 +2575,7 @@ ale nie będziesz mógł robić zakupów.</string>
       <item>Gdy znajdziesz trochę czasu:</item>
       <item>W Twoim terminarzu:</item>
       <item>Masz chwilę?w</item>
-      <item>Tu Astrid!</item>
+      <item>Tu Tasquid!</item>
       <item>Cześć! Mogę przeszkodzić?</item>
       <item>Minuta Twojego czasu?</item>
       <item>Jest wspaniały dzień na</item>

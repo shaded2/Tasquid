@@ -2347,11 +2347,11 @@ you get stuff done. It features reminders, tags, sync, Locale plug-in, a widget 
 
   <!-- Titles for user reengagement notifications -->
   <string-array name="rmd_reengage_notif_titles">
-    <item>A note from Astrid</item>
+    <item>A note from Tasquid</item>
     <!-- %s -> first name -->
     <item>Memo for %s.</item> 
-    <item>Your Astrid digest</item>
-    <item>Reminders from Astrid</item>
+    <item>Your Tasquid digest</item>
+    <item>Reminders from Tasquid</item>
   </string-array>
     
   <string name="rmd_reengage_name_default">あなた</string>
@@ -2373,7 +2373,7 @@ you get stuff done. It features reminders, tags, sync, Locale plug-in, a widget 
   <!-- Speech bubble options for astrid in reengagement notifs when no tasks present -->
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Don\'t you want to get organized?</item>
-    <item>I\'m Astrid! I\'m here to help you do more!</item>
+    <item>I\'m Tasquid! I\'m here to help you do more!</item>
     <item>You look busy! Let me take some of those tasks off of your plate.</item>
     <item>I can help you keep track of all of the details in your life.</item>
     <item>You\'re serious about getting more done? So am I!</item>
@@ -2440,9 +2440,9 @@ you get stuff done. It features reminders, tags, sync, Locale plug-in, a widget 
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Title -->
   <string name="rmd_EPr_multiple_maxvolume_title">Max volume for multiple-ring reminders</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (true) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_true">Astrid will max out the volume for multiple-ring reminders</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_true">Tasquid will max out the volume for multiple-ring reminders</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (false) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_false">Astrid will use the system setting for the volume</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_false">Tasquid will use the system setting for the volume</string>
 
   <!-- Reminder Preference: Vibrate Title -->
   <string name="rmd_EPr_vibrate_title">アラート時に振動する</string>
@@ -2452,7 +2452,7 @@ you get stuff done. It features reminders, tags, sync, Locale plug-in, a widget 
   <string name="rmd_EPr_vibrate_desc_false">通知するときに振動しません</string>
 
   <!-- Reminder Preference: Nagging Title -->  
-  <string name="rmd_EPr_nagging_title">Astridの通知</string>
+  <string name="rmd_EPr_nagging_title">Tasquidの通知</string>
   <!-- Reminder Preference: Nagging Description (true) -->
   <string name="rmd_EPr_nagging_desc_true">通知画面に励ましメッセージを表示します</string>
   <!-- Reminder Preference: Nagging Description (false) -->
@@ -2593,7 +2593,7 @@ you get stuff done. It features reminders, tags, sync, Locale plug-in, a widget 
       <item>何時あなたに少し時間がありますか？</item>
       <item>あなたの当面の課題に入っています</item>
       <item>少しお時間ありますか？</item>
-      <item>Astridはここだよ！</item>
+      <item>Tasquidはここだよ！</item>
       <item>こんにちは、ちょっと邪魔していい？</item>
       <item>ちょっとお時間よろしいですか？</item>
       <item>It\'s a great day to</item>

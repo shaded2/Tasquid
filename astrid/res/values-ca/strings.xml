@@ -451,10 +451,10 @@
   <string name="rmd_NoA_done">Acabat</string>
   <string name="rmd_NoA_snooze">Adorm</string>
   <string-array name="rmd_reengage_notif_titles">
-    <item>A note from Astrid</item>
+    <item>A note from Tasquid</item>
     <item>Memo for %s.</item>
-    <item>Your Astrid digest</item>
-    <item>Recordatoris de l\'Astrid</item>
+    <item>Your Tasquid digest</item>
+    <item>Recordatoris de l\'Tasquid</item>
   </string-array>
   <string-array name="rmd_reengage_dialog_options">
     <item>Time to shorten your to-do list!</item>
@@ -467,14 +467,14 @@
   </string-array>
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Don\'t you want to get organized?</item>
-    <item>I\'m Astrid! I\'m here to help you do more!</item>
+    <item>I\'m Tasquid! I\'m here to help you do more!</item>
     <item>You look busy! Let me take some of those tasks off of your plate.</item>
     <item>I can help you keep track of all of the details in your life.</item>
     <item>You\'re serious about getting more done? So am I!</item>
     <item>Pleasure to make your acquaintance!</item>
   </string-array>
-  <string name="rmd_EPr_enabled_desc_true">Els recordatoris de l\'Astrid estan habilitats (això és normal)</string>
-  <string name="rmd_EPr_enabled_desc_false">Els recordatoris de l\'Astrid no apareixeran mai al vostre dispositiu</string>
+  <string name="rmd_EPr_enabled_desc_true">Els recordatoris de l\'Tasquid estan habilitats (això és normal)</string>
+  <string name="rmd_EPr_enabled_desc_false">Els recordatoris de l\'Tasquid no apareixeran mai al vostre dispositiu</string>
   <string name="rmd_EPr_quiet_hours_start_title">Inici de Silenci</string>
   <string name="rmd_EPr_quiet_hours_start_desc">Cap notificació apareixerà després %s</string>
   <string name="rmd_EPr_quiet_hours_desc_none">Silenci desactivat</string>
@@ -488,10 +488,10 @@
   <string name="rmd_EPr_persistent_desc_true">Les notificacions han que ser vistes individualment per ser descartades</string>
   <string name="rmd_EPr_persistent_desc_false">Les notificacions poden ser descartades amb el botó \"Descarta Tot\"</string>
   <string name="rmd_EPr_vibrate_title">Vibrar amb les Alertes</string>
-  <string name="rmd_EPr_vibrate_desc_true">Astrid vibrarà quan enviï notificacions</string>
-  <string name="rmd_EPr_vibrate_desc_false">Astrid no vibrarà quan enviï notificacions</string>
-  <string name="rmd_EPr_nagging_desc_true">Astrid apareixerà durant les notificacions per donar-li un estímul</string>
-  <string name="rmd_EPr_nagging_desc_false">Astrid no li donarà cap missatge d\'estímul</string>
+  <string name="rmd_EPr_vibrate_desc_true">Tasquid vibrarà quan enviï notificacions</string>
+  <string name="rmd_EPr_vibrate_desc_false">Tasquid no vibrarà quan enviï notificacions</string>
+  <string name="rmd_EPr_nagging_desc_true">Tasquid apareixerà durant les notificacions per donar-li un estímul</string>
+  <string name="rmd_EPr_nagging_desc_false">Tasquid no li donarà cap missatge d\'estímul</string>
   <string name="rmd_EPr_snooze_dialog_title">Diàleg de retard HH:MM</string>
   <string name="rmd_EPr_snooze_dialog_desc_true">Silencia seleccionant un nou temps límit (HH:MM)</string>
   <string name="rmd_EPr_snooze_dialog_desc_false">Silencia seleccionant # dies/hores a adormir</string>
@@ -595,7 +595,7 @@
     <item>Quan tingui un minut:</item>
     <item>A la seva agenda:</item>
     <item>Té un moment lliure?</item>
-    <item>Aquí Astrid!</item>
+    <item>Aquí Tasquid!</item>
     <item>¡Hola! Puc molestar-lo?</item>
     <item>Un minut del seu temps?</item>
     <item>Es un gran dia per</item>

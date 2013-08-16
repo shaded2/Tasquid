@@ -2326,11 +2326,11 @@
 
   <!-- Titles for user reengagement notifications -->
   <string-array name="rmd_reengage_notif_titles">
-    <item>Astrid\'ten bir not</item>
+    <item>Tasquid\'ten bir not</item>
     <!-- %s -> first name -->
     <item>Bilgi notu: %s.</item> 
-    <item>Astrid özetiniz</item>
-    <item>Astrid Hatırlatmaları</item>
+    <item>Tasquid özetiniz</item>
+    <item>Tasquid Hatırlatmaları</item>
   </string-array>
     
   <string name="rmd_reengage_name_default">siz</string>
@@ -2352,7 +2352,7 @@
   <!-- Speech bubble options for astrid in reengagement notifs when no tasks present -->
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Daha düzenli olmak istemiyor musun?</item>
-    <item>Ben Astrid! Daha çalışkan olman için buradayım!</item>
+    <item>Ben Tasquid! Daha çalışkan olman için buradayım!</item>
     <item>Meşgul görünüyorsun! Görevlerinden bazılarını listenden kaldırmama izin ver.</item>
     <item>Hayatındaki tüm ayrıntıları izlemene yardımcı olabilirim.</item>
     <item>İş bitirme konusunda oldukça ciddisin? Ben de!</item>
@@ -2367,9 +2367,9 @@
   <!-- Reminder Preference: Reminders Enabled Title -->
   <string name="rmd_EPr_enabled_title">Hatırlatmalar etkin mi?</string>
   <!-- Reminder Preference Reminders Enabled Description (true) -->
-  <string name="rmd_EPr_enabled_desc_true">Astrid hatırlatmaları etkin. (varsayılan)</string>
+  <string name="rmd_EPr_enabled_desc_true">Tasquid hatırlatmaları etkin. (varsayılan)</string>
   <!-- Reminder Preference Reminders Enabled Description (false) -->
-  <string name="rmd_EPr_enabled_desc_false">Astrid hatırlatmaları telefonda gözükmeyecek</string>  
+  <string name="rmd_EPr_enabled_desc_false">Tasquid hatırlatmaları telefonda gözükmeyecek</string>  
     
   <!-- Reminder Preference: Quiet Hours Start Title -->
   <string name="rmd_EPr_quiet_hours_start_title">Sessiz saatlerin başlangıcı</string>
@@ -2419,23 +2419,23 @@
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Title -->
   <string name="rmd_EPr_multiple_maxvolume_title">Çoklu çalan hatırlatmalar için en yüksek ses seviyesi</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (true) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_true">Çoklu çalan hatırlatmalar için Astrid ses seviyesini en yükseğe çıkaracaktır</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_true">Çoklu çalan hatırlatmalar için Tasquid ses seviyesini en yükseğe çıkaracaktır</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (false) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_false">Astrid ses için sistem ayarlarını kullanacak</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_false">Tasquid ses için sistem ayarlarını kullanacak</string>
 
   <!-- Reminder Preference: Vibrate Title -->
   <string name="rmd_EPr_vibrate_title">Uyarı esnasında titreşim</string>
   <!-- Reminder Preference: Vibrate Description (true) -->
-  <string name="rmd_EPr_vibrate_desc_true">Astrid bildirimleri gönderirken titreyecek</string>
+  <string name="rmd_EPr_vibrate_desc_true">Tasquid bildirimleri gönderirken titreyecek</string>
   <!-- Reminder Preference: Vibrate Description (false) -->
-  <string name="rmd_EPr_vibrate_desc_false">Astrid bildirimleri gönderirken titremeyecek</string>
+  <string name="rmd_EPr_vibrate_desc_false">Tasquid bildirimleri gönderirken titremeyecek</string>
 
   <!-- Reminder Preference: Nagging Title -->  
-  <string name="rmd_EPr_nagging_title">Astrid Teşvikleri</string>
+  <string name="rmd_EPr_nagging_title">Tasquid Teşvikleri</string>
   <!-- Reminder Preference: Nagging Description (true) -->
-  <string name="rmd_EPr_nagging_desc_true">Astrid hatırlatmalar sırasında sizi teşvik etmek için görünecektir</string>
+  <string name="rmd_EPr_nagging_desc_true">Tasquid hatırlatmalar sırasında sizi teşvik etmek için görünecektir</string>
   <!-- Reminder Preference: Nagging Description (false) -->
-  <string name="rmd_EPr_nagging_desc_false">Astrid teşvik iletileri göstermeyecektir</string>
+  <string name="rmd_EPr_nagging_desc_false">Tasquid teşvik iletileri göstermeyecektir</string>
 
   <!-- Reminder Preference: Snooze Dialog Title -->  
   <string name="rmd_EPr_snooze_dialog_title">Erteleme İletisi SS:DD</string>
@@ -2572,7 +2572,7 @@
       <item>Vakit bulabildiğinde:</item>
       <item>Ajandanda:</item>
       <item>Müsait miydin?</item>
-      <item>Konuşan benim, Astrid!</item>
+      <item>Konuşan benim, Tasquid!</item>
       <item>Selam! Seni rahatsız edebilir miyim?</item>
       <item>Bir dakikanı alabilir miyim?</item>
       <item>Hadi şunu yapalım:</item>

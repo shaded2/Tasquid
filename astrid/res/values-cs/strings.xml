@@ -549,10 +549,10 @@
   <string name="rmd_NoA_snooze">Později...</string>
   <string name="rmd_NoA_completed_toast">Hotovo! Gratuluji!</string>
   <string-array name="rmd_reengage_notif_titles">
-    <item>A note from Astrid</item>
+    <item>A note from Tasquid</item>
     <item>Memo for %s.</item>
-    <item>Your Astrid digest</item>
-    <item>Reminders from Astrid</item>
+    <item>Your Tasquid digest</item>
+    <item>Reminders from Tasquid</item>
   </string-array>
   <string-array name="rmd_reengage_dialog_options">
     <item>Time to shorten your to-do list!</item>
@@ -565,7 +565,7 @@
   </string-array>
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Don\'t you want to get organized?</item>
-    <item>I\'m Astrid! I\'m here to help you do more!</item>
+    <item>I\'m Tasquid! I\'m here to help you do more!</item>
     <item>You look busy! Let me take some of those tasks off of your plate.</item>
     <item>I can help you keep track of all of the details in your life.</item>
     <item>You\'re serious about getting more done? So am I!</item>
@@ -583,9 +583,9 @@
   <string name="rmd_EPr_persistent_desc_true">Pro smazání musí být upozornění zobrazeno každé zvlášť</string>
   <string name="rmd_EPr_persistent_desc_false">Upozornění mohou být smazána s tlačítkem \"Smazat vše\"</string>
   <string name="rmd_EPr_vibrate_title">Vibruj při upozornění</string>
-  <string name="rmd_EPr_vibrate_desc_true">Astrid bude vibrovat při odesílání upozornění</string>
-  <string name="rmd_EPr_vibrate_desc_false">Astrid nebude vibrovat při odesílání upozornění</string>
-  <string name="rmd_EPr_nagging_desc_true">Astrid bude vypisovat povzbuzující zprávy během upozornění</string>
+  <string name="rmd_EPr_vibrate_desc_true">Tasquid bude vibrovat při odesílání upozornění</string>
+  <string name="rmd_EPr_vibrate_desc_false">Tasquid nebude vibrovat při odesílání upozornění</string>
+  <string name="rmd_EPr_nagging_desc_true">Tasquid bude vypisovat povzbuzující zprávy během upozornění</string>
   <string name="rmd_EPr_defaultRemind_title">Náhodná upozornění</string>
   <string name="rmd_EPr_defaultRemind_desc_disabled">Nové úkoly nebudou mít náhodné upozornění</string>
   <string name="rmd_EPr_defaultRemind_desc">Na nové úkoly bude upozorňováno náhodně: %s</string>
@@ -686,7 +686,7 @@
     <item>Když máš čas:</item>
     <item>Ve Tvém programu:</item>
     <item>Máš chvíli čas?</item>
-    <item>Tady je Astrid!</item>
+    <item>Tady je Tasquid!</item>
     <item>Ahoj! Můžu Tě vyrušit?</item>
     <item>Minuta Tvého času?</item>
     <item>Je skvělý den na</item>

@@ -2324,11 +2324,11 @@ Je kunt doorgaan met het gebruiken van deze applicatie maar je kunt geen aankope
 
   <!-- Titles for user reengagement notifications -->
   <string-array name="rmd_reengage_notif_titles">
-    <item>Een bericht van Astrid</item>
+    <item>Een bericht van Tasquid</item>
     <!-- %s -> first name -->
     <item>Bericht voor %s</item> 
-    <item>Your Astrid digest</item>
-    <item>Herinneringen van Astrid</item>
+    <item>Your Tasquid digest</item>
+    <item>Herinneringen van Tasquid</item>
   </string-array>
     
   <string name="rmd_reengage_name_default">jij</string>
@@ -2350,7 +2350,7 @@ Je kunt doorgaan met het gebruiken van deze applicatie maar je kunt geen aankope
   <!-- Speech bubble options for astrid in reengagement notifs when no tasks present -->
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Zou je niet georganiseerd willen zijn?</item>
-    <item>Ik ben Astrid! Klaar om je te helpen meer voor elkaar te krijgen!</item>
+    <item>Ik ben Tasquid! Klaar om je te helpen meer voor elkaar te krijgen!</item>
     <item>Bezige bij! Laat mij een paar taken van je overnemen.</item>
     <item>Ik kan je helpen om alle details van je leven in de gaten te houden.</item>
     <item>Dus jij wil echt meer voor elkaar krijgen? Ik ook!</item>
@@ -2365,9 +2365,9 @@ Je kunt doorgaan met het gebruiken van deze applicatie maar je kunt geen aankope
   <!-- Reminder Preference: Reminders Enabled Title -->
   <string name="rmd_EPr_enabled_title">Herinneringen Ingeschakeld?</string>
   <!-- Reminder Preference Reminders Enabled Description (true) -->
-  <string name="rmd_EPr_enabled_desc_true">Astrid herinneringen zijn ingeschakeld (dit is normaal)</string>
+  <string name="rmd_EPr_enabled_desc_true">Tasquid herinneringen zijn ingeschakeld (dit is normaal)</string>
   <!-- Reminder Preference Reminders Enabled Description (false) -->
-  <string name="rmd_EPr_enabled_desc_false">Astrid herinneringen zullen nooit weergegeven worden op je telefoon</string>  
+  <string name="rmd_EPr_enabled_desc_false">Tasquid herinneringen zullen nooit weergegeven worden op je telefoon</string>  
     
   <!-- Reminder Preference: Quiet Hours Start Title -->
   <string name="rmd_EPr_quiet_hours_start_title">Rustperiode begint</string>
@@ -2417,23 +2417,23 @@ Je kunt doorgaan met het gebruiken van deze applicatie maar je kunt geen aankope
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Title -->
   <string name="rmd_EPr_multiple_maxvolume_title">Max. volume voor multiple-ring herinneringen</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (true) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_true">Astrid zal het volume voor multi-ring herinneringen maximaliseren</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_true">Tasquid zal het volume voor multi-ring herinneringen maximaliseren</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (false) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_false">Astrid zal de systeem-instellingen voor het volume gebruiken</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_false">Tasquid zal de systeem-instellingen voor het volume gebruiken</string>
 
   <!-- Reminder Preference: Vibrate Title -->
   <string name="rmd_EPr_vibrate_title">Trillen bij herinnering</string>
   <!-- Reminder Preference: Vibrate Description (true) -->
-  <string name="rmd_EPr_vibrate_desc_true">Astrid laat telefoon trillen bij herinnering</string>
+  <string name="rmd_EPr_vibrate_desc_true">Tasquid laat telefoon trillen bij herinnering</string>
   <!-- Reminder Preference: Vibrate Description (false) -->
-  <string name="rmd_EPr_vibrate_desc_false">Astrid laat telefoon niet trillen bij herinnering</string>
+  <string name="rmd_EPr_vibrate_desc_false">Tasquid laat telefoon niet trillen bij herinnering</string>
 
   <!-- Reminder Preference: Nagging Title -->  
-  <string name="rmd_EPr_nagging_title">Astrid aanmoedigingen</string>
+  <string name="rmd_EPr_nagging_title">Tasquid aanmoedigingen</string>
   <!-- Reminder Preference: Nagging Description (true) -->
-  <string name="rmd_EPr_nagging_desc_true">Astrid geeft motiverende herinneringen</string>
+  <string name="rmd_EPr_nagging_desc_true">Tasquid geeft motiverende herinneringen</string>
   <!-- Reminder Preference: Nagging Description (false) -->
-  <string name="rmd_EPr_nagging_desc_false">Astrid geeft geen aanmoedigings berichten</string>
+  <string name="rmd_EPr_nagging_desc_false">Tasquid geeft geen aanmoedigings berichten</string>
 
   <!-- Reminder Preference: Snooze Dialog Title -->  
   <string name="rmd_EPr_snooze_dialog_title">Sluimeren dialoog UU:MM</string>
@@ -2570,7 +2570,7 @@ Je kunt doorgaan met het gebruiken van deze applicatie maar je kunt geen aankope
       <item>Luister even...</item>
       <item>In je agenda:</item>
       <item>Niets te doen?</item>
-      <item>Hier is Astrid!</item>
+      <item>Hier is Tasquid!</item>
       <item>En dan nog even dit...</item>
       <item>Mag ik even de aandacht?</item>
       <item>Dit is het moment om</item>

@@ -2429,9 +2429,9 @@
   <!-- Reminder Preference: Nagging Title -->  
   <string name="rmd_EPr_nagging_title">清单小助理提醒</string>
   <!-- Reminder Preference: Nagging Description (true) -->
-  <string name="rmd_EPr_nagging_desc_true">Astrid 提醒时会给你鼓励</string>
+  <string name="rmd_EPr_nagging_desc_true">Tasquid 提醒时会给你鼓励</string>
   <!-- Reminder Preference: Nagging Description (false) -->
-  <string name="rmd_EPr_nagging_desc_false">Astrid 不显示任何鼓励</string>
+  <string name="rmd_EPr_nagging_desc_false">Tasquid 不显示任何鼓励</string>
 
   <!-- Reminder Preference: Snooze Dialog Title -->  
   <string name="rmd_EPr_snooze_dialog_title">晚点提醒对话框 小时:分钟</string>
@@ -2568,7 +2568,7 @@
       <item>当您有时间：</item>
       <item>在您的议程：</item>
       <item>有空吗？</item>
-      <item>注意一下Astrid!</item>
+      <item>注意一下Tasquid!</item>
       <item>可打扰一下吗？</item>
       <item>能借一分钟吗？</item>
       <item>重要的一天要</item>

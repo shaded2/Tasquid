@@ -258,10 +258,10 @@
   <string name="rmd_NoA_done">Já Terminada!</string>
   <string name="rmd_NoA_snooze">Parar...</string>
   <string-array name="rmd_reengage_notif_titles">
-    <item>A note from Astrid</item>
+    <item>A note from Tasquid</item>
     <item>Memo for %s.</item>
-    <item>Your Astrid digest</item>
-    <item>Reminders from Astrid</item>
+    <item>Your Tasquid digest</item>
+    <item>Reminders from Tasquid</item>
   </string-array>
   <string-array name="rmd_reengage_dialog_options">
     <item>Time to shorten your to-do list!</item>
@@ -274,7 +274,7 @@
   </string-array>
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Don\'t you want to get organized?</item>
-    <item>I\'m Astrid! I\'m here to help you do more!</item>
+    <item>I\'m Tasquid! I\'m here to help you do more!</item>
     <item>You look busy! Let me take some of those tasks off of your plate.</item>
     <item>I can help you keep track of all of the details in your life.</item>
     <item>You\'re serious about getting more done? So am I!</item>
@@ -381,7 +381,7 @@
     <item>Quando tiver um minuto:</item>
     <item>Na sua agenda:</item>
     <item>Livre por um momento?</item>
-    <item>Astrid aqui!</item>
+    <item>Tasquid aqui!</item>
     <item>Olá! Posso incomodar?</item>
     <item>Tem um minuto?</item>
     <item>É um óptimo dia para</item>

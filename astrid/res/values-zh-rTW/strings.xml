@@ -2322,11 +2322,11 @@
 
   <!-- Titles for user reengagement notifications -->
   <string-array name="rmd_reengage_notif_titles">
-    <item>Astrid 的提示</item>
+    <item>Tasquid 的提示</item>
     <!-- %s -> first name -->
     <item>%s 的備忘錄。</item> 
-    <item>您的 Astrid 摘要</item>
-    <item>Astrid 的提醒</item>
+    <item>您的 Tasquid 摘要</item>
+    <item>Tasquid 的提醒</item>
   </string-array>
     
   <string name="rmd_reengage_name_default">您</string>
@@ -2348,7 +2348,7 @@
   <!-- Speech bubble options for astrid in reengagement notifs when no tasks present -->
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>您不想生活變得更加有條理嗎？</item>
-    <item>我是Astrid！我隨時幫助您做更多事情！</item>
+    <item>我是Tasquid！我隨時幫助您做更多事情！</item>
     <item>您好像好忙喔！讓我來分擔一下您的重擔裡的一些活兒唄。</item>
     <item>我可以幫您記錄您生活中的所有細節。</item>
     <item>您真的要搞定更多事情嗎？我也是啊！</item>
@@ -2363,9 +2363,9 @@
   <!-- Reminder Preference: Reminders Enabled Title -->
   <string name="rmd_EPr_enabled_title">允許提醒？</string>
   <!-- Reminder Preference Reminders Enabled Description (true) -->
-  <string name="rmd_EPr_enabled_desc_true">Astrid 提示功能已經啟用（這是正常的）</string>
+  <string name="rmd_EPr_enabled_desc_true">Tasquid 提示功能已經啟用（這是正常的）</string>
   <!-- Reminder Preference Reminders Enabled Description (false) -->
-  <string name="rmd_EPr_enabled_desc_false">Astrid 提示功能將不再出現在您的手機裡</string>  
+  <string name="rmd_EPr_enabled_desc_false">Tasquid 提示功能將不再出現在您的手機裡</string>  
     
   <!-- Reminder Preference: Quiet Hours Start Title -->
   <string name="rmd_EPr_quiet_hours_start_title">無聲開始時間</string>
@@ -2415,9 +2415,9 @@
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Title -->
   <string name="rmd_EPr_multiple_maxvolume_title">多重提醒最大音量</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (true) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_true">Astrid將會以最大音量進行多重提醒</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_true">Tasquid將會以最大音量進行多重提醒</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (false) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_false">Astrid使用系統音量設置</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_false">Tasquid使用系統音量設置</string>
 
   <!-- Reminder Preference: Vibrate Title -->
   <string name="rmd_EPr_vibrate_title">震動提醒</string>
@@ -2427,11 +2427,11 @@
   <string name="rmd_EPr_vibrate_desc_false">傳送通知震動關閉</string>
 
   <!-- Reminder Preference: Nagging Title -->  
-  <string name="rmd_EPr_nagging_title">Astrid 提醒</string>
+  <string name="rmd_EPr_nagging_title">Tasquid 提醒</string>
   <!-- Reminder Preference: Nagging Description (true) -->
-  <string name="rmd_EPr_nagging_desc_true">Astrid提醒時給鼓勵訊息！！</string>
+  <string name="rmd_EPr_nagging_desc_true">Tasquid提醒時給鼓勵訊息！！</string>
   <!-- Reminder Preference: Nagging Description (false) -->
-  <string name="rmd_EPr_nagging_desc_false">Astrid停止傳送任何鼓勵訊息</string>
+  <string name="rmd_EPr_nagging_desc_false">Tasquid停止傳送任何鼓勵訊息</string>
 
   <!-- Reminder Preference: Snooze Dialog Title -->  
   <string name="rmd_EPr_snooze_dialog_title">晚點提醒對話框 小時:分鐘</string>
@@ -2568,7 +2568,7 @@
       <item>當您有時間:</item>
       <item>在您的議程:</item>
       <item>有空嗎?</item>
-      <item>注意一下Astrid!</item>
+      <item>注意一下Tasquid!</item>
       <item>可打擾一下嗎?</item>
       <item>能借一分鐘?</item>
       <item>這是重要的一天</item>

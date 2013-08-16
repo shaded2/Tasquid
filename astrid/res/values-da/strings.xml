@@ -340,10 +340,10 @@
   <string name="rmd_NoA_done">Allerede udført!</string>
   <string name="rmd_NoA_snooze">Slumrefunktion...</string>
   <string-array name="rmd_reengage_notif_titles">
-    <item>A note from Astrid</item>
+    <item>A note from Tasquid</item>
     <item>Memo for %s.</item>
-    <item>Your Astrid digest</item>
-    <item>Reminders from Astrid</item>
+    <item>Your Tasquid digest</item>
+    <item>Reminders from Tasquid</item>
   </string-array>
   <string-array name="rmd_reengage_dialog_options">
     <item>Time to shorten your to-do list!</item>
@@ -356,7 +356,7 @@
   </string-array>
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Don\'t you want to get organized?</item>
-    <item>I\'m Astrid! I\'m here to help you do more!</item>
+    <item>I\'m Tasquid! I\'m here to help you do more!</item>
     <item>You look busy! Let me take some of those tasks off of your plate.</item>
     <item>I can help you keep track of all of the details in your life.</item>
     <item>You\'re serious about getting more done? So am I!</item>
@@ -470,7 +470,7 @@
     <item>When you have a minute:</item>
     <item>On your agenda:</item>
     <item>Free for a moment?</item>
-    <item>Astrid here!</item>
+    <item>Tasquid here!</item>
     <item>Hi! Can I bug you?</item>
     <item>A minute of your time?</item>
     <item>It\'s a great day to</item>

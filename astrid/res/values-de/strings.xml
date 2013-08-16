@@ -2323,11 +2323,11 @@ Sind Sie sicher, dass Sie mit Astrid.com synchronisieren möchten?</string>
 
   <!-- Titles for user reengagement notifications -->
   <string-array name="rmd_reengage_notif_titles">
-    <item>Eine Mitteilung von Astrid</item>
+    <item>Eine Mitteilung von Tasquid</item>
     <!-- %s -> first name -->
     <item>Notiz für %s.</item> 
-    <item>Ihre Astrid-Übersicht</item>
-    <item>Erinnerungen von Astrid</item>
+    <item>Ihre Tasquid-Übersicht</item>
+    <item>Erinnerungen von Tasquid</item>
   </string-array>
     
   <string name="rmd_reengage_name_default">Sie</string>
@@ -2349,7 +2349,7 @@ Sind Sie sicher, dass Sie mit Astrid.com synchronisieren möchten?</string>
   <!-- Speech bubble options for astrid in reengagement notifs when no tasks present -->
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Möchten Sie Ihre Aufgaben nicht besser organisieren?</item>
-    <item>Ich bin Astrid! Meine Aufgabe ist es, Sie bei Ihren Aufgaben zu unterstützen!</item>
+    <item>Ich bin Tasquid! Meine Aufgabe ist es, Sie bei Ihren Aufgaben zu unterstützen!</item>
     <item>Sie sehen beschäftigt aus, kann ich Ihnen diese Aufgaben abnehmen?</item>
     <item>Ich kann Sie bei Ihrer gesamten Aufgabenplanung unterstützen.</item>
     <item>Wollen Sie mehr schaffen? Ich auch!</item>
@@ -2364,9 +2364,9 @@ Sind Sie sicher, dass Sie mit Astrid.com synchronisieren möchten?</string>
   <!-- Reminder Preference: Reminders Enabled Title -->
   <string name="rmd_EPr_enabled_title">Erinnerungen aktiviert?</string>
   <!-- Reminder Preference Reminders Enabled Description (true) -->
-  <string name="rmd_EPr_enabled_desc_true">Astrids Erinnerung sind aktiviert (Standard)</string>
+  <string name="rmd_EPr_enabled_desc_true">Tasquids Erinnerung sind aktiviert (Standard)</string>
   <!-- Reminder Preference Reminders Enabled Description (false) -->
-  <string name="rmd_EPr_enabled_desc_false">Astrid wird keine Erinnerungen auf deinem Telefon anzeigen</string>  
+  <string name="rmd_EPr_enabled_desc_false">Tasquid wird keine Erinnerungen auf deinem Telefon anzeigen</string>  
     
   <!-- Reminder Preference: Quiet Hours Start Title -->
   <string name="rmd_EPr_quiet_hours_start_title">Stille Stunden beginnen.</string>
@@ -2416,23 +2416,23 @@ Sind Sie sicher, dass Sie mit Astrid.com synchronisieren möchten?</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Title -->
   <string name="rmd_EPr_multiple_maxvolume_title">Maximale Lautstärke für mehrfachläutende Erinnerungen</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (true) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_true">Astrid wird die Lautstärke für mehrfachläutende Erinnerungen maximalisieren</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_true">Tasquid wird die Lautstärke für mehrfachläutende Erinnerungen maximalisieren</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (false) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_false">Astrid wird die Systemeinstellungen für die Lautstärke benutzen</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_false">Tasquid wird die Systemeinstellungen für die Lautstärke benutzen</string>
 
   <!-- Reminder Preference: Vibrate Title -->
   <string name="rmd_EPr_vibrate_title">Vibrieren beim Alarm</string>
   <!-- Reminder Preference: Vibrate Description (true) -->
-  <string name="rmd_EPr_vibrate_desc_true">Astrid wird beim Senden von Benachrichtigungen vibrieren</string>
+  <string name="rmd_EPr_vibrate_desc_true">Tasquid wird beim Senden von Benachrichtigungen vibrieren</string>
   <!-- Reminder Preference: Vibrate Description (false) -->
-  <string name="rmd_EPr_vibrate_desc_false">Astrid wird beim Senden von Erinnerungen nicht vibrieren</string>
+  <string name="rmd_EPr_vibrate_desc_false">Tasquid wird beim Senden von Erinnerungen nicht vibrieren</string>
 
   <!-- Reminder Preference: Nagging Title -->  
-  <string name="rmd_EPr_nagging_title">Astrid Ermutigungen</string>
+  <string name="rmd_EPr_nagging_title">Tasquid Ermutigungen</string>
   <!-- Reminder Preference: Nagging Description (true) -->
-  <string name="rmd_EPr_nagging_desc_true">Astrid wird Ermutigungen zu den Erinnerungen hinzufügen</string>
+  <string name="rmd_EPr_nagging_desc_true">Tasquid wird Ermutigungen zu den Erinnerungen hinzufügen</string>
   <!-- Reminder Preference: Nagging Description (false) -->
-  <string name="rmd_EPr_nagging_desc_false">Astrid wird keine Ermutigungen hinzufügen</string>
+  <string name="rmd_EPr_nagging_desc_false">Tasquid wird keine Ermutigungen hinzufügen</string>
 
   <!-- Reminder Preference: Snooze Dialog Title -->  
   <string name="rmd_EPr_snooze_dialog_title">Schlummer-Dialog HH:MM</string>
@@ -2567,7 +2567,7 @@ Sind Sie sicher, dass Sie mit Astrid.com synchronisieren möchten?</string>
       <item>Wenn du Zeit hast:</item>
       <item>Was noch zu tun ist:</item>
       <item>Hast du einen Moment?</item>
-      <item>Astrid ist hier!</item>
+      <item>Tasquid ist hier!</item>
       <item>Hi! Darf ich kurz stören?</item>
       <item>Eine Minute deiner Zeit!?</item>
       <item>Heute ist ein toller Tag für:</item>
