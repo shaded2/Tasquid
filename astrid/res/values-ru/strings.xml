@@ -139,7 +139,7 @@
   <!-- ============================================ edit people dialog == -->
 
   <!-- task sharing dialog: intro -->
-  <string name="actfm_EPA_intro">Используйте Astrid для обмена списками покупок, планами или командными проектами и мгновенно следите за тем как люди доводят дела до конца.</string>
+  <string name="actfm_EPA_intro">Используйте Tasquid для обмена списками покупок, планами или командными проектами и мгновенно следите за тем как люди доводят дела до конца.</string>
     
   <!-- task sharing dialog: window title -->
     
@@ -181,8 +181,8 @@
   <!-- task sharing dialog: list members section header -->
   <string name="actfm_EPA_assign_header_members">Список участников</string>
 
-  <!-- task sharing dialog: astrid friends section header -->
-  <string name="actfm_EPA_assign_header_friends">Друзья Astrid</string>
+  <!-- task sharing dialog: Tasquid friends section header -->
+  <string name="actfm_EPA_assign_header_friends">Друзья Tasquid</string>
 
   <!-- task sharing dialog: message hint -->
   
@@ -320,7 +320,7 @@
     
   <string name="actfm_dual_sync_warning">You currently synchronize with Google Tasks. To avoid duplicate tasks and other synchronization issues, 
       Google Tasks will no longer synchronize when you start synchronizing with Astrid.com. You can still import tasks from Google Tasks from the Google Tasks settings page,
-      or replace Google Tasks in Gmail with Astrid\'s Remind Me Chrome Extension.  
+      or replace Google Tasks in Gmail with Tasquid\'s Remind Me Chrome Extension.  
       Are you sure you want to sync with Astrid.com?</string>
       
   <!-- account types -->
@@ -346,17 +346,17 @@
   
   <!-- Sync upgrade messages -->
   <string name="sync_upgr_both_title">Использование Astrid.com + Google без Дубликатов</string>
-  <string name="sync_upgr_both_body">Давайте будем откровенны. Google Tasks удобен, но не так крут как Astrid.  Чтобы предотвратить создание дуликатов, Вам нет больше необходимости синхронизироваться с Astrid.com  и фоном с Google Tasks  в одно и то же время. Вам достаточно импортировать ваши задачи из  Google Tasks в Settings → Backup &amp; Sync, или откатится до синхронизации только с Google Tasks.</string>
-  <string name="sync_upgr_both_btn1">с Astrid</string>
+  <string name="sync_upgr_both_body">Давайте будем откровенны. Google Tasks удобен, но не так крут как Tasquid.  Чтобы предотвратить создание дуликатов, Вам нет больше необходимости синхронизироваться с Astrid.com  и фоном с Google Tasks  в одно и то же время. Вам достаточно импортировать ваши задачи из  Google Tasks в Settings → Backup &amp; Sync, или откатится до синхронизации только с Google Tasks.</string>
+  <string name="sync_upgr_both_btn1">с Tasquid</string>
   <string name="sync_upgr_both_btn2">Откатить до Google Tasks</string>
   
-  <string name="sync_upgr_gtasks_only_title">Бесплатно обновить до Astrid Sync</string>
+  <string name="sync_upgr_gtasks_only_title">Бесплатно обновить до Tasquid Sync</string>
   <string name="sync_upgr_gtasks_only_body">Доступ к Вашим задачам с любого устройства и из Gmail c Astrid.com sync. Обновитесь до Astrid.com Sync  (Вы всегда можете перейти обратно - но вряд ли захитите)!</string>
-  <string name="sync_upgr_gtasks_only_btn1">Обновить до Astrid Sync</string>
+  <string name="sync_upgr_gtasks_only_btn1">Обновить до Tasquid Sync</string>
   <string name="sync_upgr_gtasks_only_btn2">Вместе с Google Tasks</string>
   
   <string name="sync_upgr_neither_title">Бесплатный бэкап &amp; Sync!</string>
-  <string name="sync_upgr_neither_body">Не рискуйте безопасностью ваших заметок! Используйте новый улучшенный Astrid sync для хранения заметок откуда угодно. </string>
+  <string name="sync_upgr_neither_body">Не рискуйте безопасностью ваших заметок! Используйте новый улучшенный Tasquid sync для хранения заметок откуда угодно. </string>
   <string name="sync_upgr_neither_btn1">OK</string>
   
   <string name="sync_upgr_logged_out">Вы вышли из системы</string>
@@ -513,16 +513,16 @@
   <!-- ================================================== AndroidManifest == -->
 
   <!-- slide 32k: Application Name (shown on home screen & in launcher) -->
-  <string name="app_name">Astrid Tasks</string>
+  <string name="app_name">Tasquid Tasks</string>
   
   <!-- permission title for READ_TASKS -->
-  <string name="read_permission_label">Право Astrid</string>
+  <string name="read_permission_label">Право Tasquid</string>
   
   <!-- permission description for READ_TASKS -->
   <string name="read_permission_desc">чтение и отображение фильтров задач</string>
   
   <!-- permission title for READ_TASKS -->
-  <string name="write_permission_label">Право Astrid</string>
+  <string name="write_permission_label">Право Tasquid</string>
   
   <!-- permission description for READ_TASKS -->
   <string name="write_permission_desc">создание новых и редактирование существующих задач</string>
@@ -541,8 +541,8 @@
   <!-- Title for dialog selecting a time (hours and minutes) -->
   <string name="DLG_hour_minutes">Время (час : мин)</string>
   
-  <!-- Dialog for Astrid having a critical update -->
-  <string name="DLG_please_update">Требуется обновить Astrid до
+  <!-- Dialog for Tasquid having a critical update -->
+  <string name="DLG_please_update">Требуется обновить Tasquid до
 самой свежей версии на Android Market! Пожалуйста, обновите перед тем, как идти дальше, 
 или подождите несколько секунд.</string>
 
@@ -555,7 +555,7 @@
   <string name="DLG_decline">Отказываюсь</string>
 
   <!-- EULA title -->
-  <string name="DLG_eula_title">Условия использования Astrid</string>
+  <string name="DLG_eula_title">Условия использования Tasquid</string>
 
   <!-- Progress Dialog generic text -->
   <string name="DLG_please_wait">Подождите, пожалуйста</string>
@@ -649,10 +649,10 @@
   <string name="TLA_quick_add_hint_assign">Добавить что-нибудь для %s</string>
   
   <!-- Notification Volumne notification-->
-  <string name="TLA_notification_volume_low">Звуковые извещения заглушены. Вы не услышите Astrid!</string>
+  <string name="TLA_notification_volume_low">Звуковые извещения заглушены. Вы не услышите Tasquid!</string>
   
   <!-- Notifications disabled warning -->
-  <string name="TLA_notification_disabled">Напоминания Astrid отключены! Вы не будете получать никаких напоминаний</string>
+  <string name="TLA_notification_disabled">Напоминания Tasquid отключены! Вы не будете получать никаких напоминаний</string>
   
   <string-array name="TLA_filters">
       <item>Активные</item>
@@ -742,7 +742,7 @@
   <string name="SSD_sort_drag">Ручной порядок с подзадачами</string>
   
   <!-- slide 23b: Sort Selection: smart sort -->
-  <string name="SSD_sort_auto">Умная сортировка Astrid</string>
+  <string name="SSD_sort_auto">Умная сортировка Tasquid</string>
   
   <!-- slide 23e: Sort Selection: sort by alpha -->
   <string name="SSD_sort_alpha">По названию</string>
@@ -767,8 +767,8 @@
   
   <!-- =============================================== FilterListActivity == -->
   
-  <!-- Astrid Filter Shortcut -->    
-  <string name="FSA_label">Список или Фильтр Astrid</string>
+  <!-- Tasquid Filter Shortcut -->    
+  <string name="FSA_label">Список или Фильтр Tasquid</string>
 
   <!-- Filter List Activity Title -->    
   
@@ -1012,8 +1012,8 @@
   <string name="MCA_missed_calls_pref_title">Пропущенные звонки</string>
 
   <!-- slide 49c: Missed call: preference description -->
-  <string name="MCA_missed_calls_pref_desc_enabled">Astrid будет уведомлять вас о пропущенных звонках и предложит вам перезвонить</string>
-  <string name="MCA_missed_calls_pref_desc_disabled">Astrid не будет уведомлять вас о пропущенных звонках</string>
+  <string name="MCA_missed_calls_pref_desc_enabled">Tasquid будет уведомлять вас о пропущенных звонках и предложит вам перезвонить</string>
+  <string name="MCA_missed_calls_pref_desc_disabled">Tasquid не будет уведомлять вас о пропущенных звонках</string>
 
   <!-- Missed call: task title with name (%1$s -> name, %2$s -> number)-->
   <string name="MCA_task_title_name">Перезвонить %1$s в %2$s</string>
@@ -1047,7 +1047,7 @@
   <string name="CRA_ignore_title">Пропустить все события календаря?</string>
 
   <!-- Calendar reminder: dialog to ignore all missed calls body -->
-  <string name="CRA_ignore_body">Вы пропустили несколько событий календаря. Astrid не следует больше спрашивать Вас о них?</string>
+  <string name="CRA_ignore_body">Вы пропустили несколько событий календаря. Tasquid не следует больше спрашивать Вас о них?</string>
 
   <!-- Calendar reminder: dialog to ignore all missed calls ignore all button -->
   <string name="CRA_ignore_all">Пропустить все события</string>
@@ -1055,10 +1055,10 @@
   <!-- Calendar reminder: dialog to ignore all missed calls ignore just this button -->
   <string name="CRA_ignore_this">Пропустить только это событие</string>
   
-  <!-- Calendar reminder: astrid speech bubble when event starting (%s -> event name) -->
+  <!-- Calendar reminder: Tasquid speech bubble when event starting (%s -> event name) -->
   <string name="CRA_speech_bubble_start">Похоже скоро начнется %s. Хотите создать список для пунктов события?</string>
 
-  <!-- Calendar reminder: astrid speech bubble when event ending (%s -> event name) -->
+  <!-- Calendar reminder: Tasquid speech bubble when event ending (%s -> event name) -->
   <string name="CRA_speech_bubble_end">Похоже Вы только что завершили %s. Хотите создать список для пунктов события?</string>
   
   <!-- Calendar reminder: create list button -->
@@ -1098,10 +1098,10 @@
   <string name="CRA_calendar_reminders_pref_title">Ассистент календаря</string>
 
   <!-- Calendar reminder: pref description disabled -->
-  <string name="CRA_calendar_reminders_pref_desc_disabled">Astrid не будет напоминать о предстоящих событиях.</string>
+  <string name="CRA_calendar_reminders_pref_desc_disabled">Tasquid не будет напоминать о предстоящих событиях.</string>
 
   <!-- Calendar reminder: pref description enabled -->
-  <string name="CRA_calendar_reminders_pref_desc_enabled">Astrid будет напоминать вам о предстоящих событиях в календаре и напомнит вам подготовиться к ним</string>
+  <string name="CRA_calendar_reminders_pref_desc_enabled">Tasquid будет напоминать вам о предстоящих событиях в календаре и напомнит вам подготовиться к ним</string>
   
   <!-- Calendar reminder: share list title -->
   <string name="CRA_share_list_title">Поделиться этим списком?</string>
@@ -1125,10 +1125,10 @@
   <!-- ==================================================== UpdateService == -->
   
   <!-- Changelog Window Title -->
-  <string name="UpS_changelog_title">Что нового в Astrid?</string>
+  <string name="UpS_changelog_title">Что нового в Tasquid?</string>
   
   <!-- Updates Window Title -->
-  <string name="UpS_updates_title">Последние новости Astrid</string>
+  <string name="UpS_updates_title">Последние новости Tasquid</string>
   
   <!-- Updats No Activity to show for offline users -->
   <string name="UpS_no_activity_log_in">Войдите, чтобы увидеть\nсвой прогресс и активность\nв опубликованных списках.</string>
@@ -1136,11 +1136,11 @@
   <!-- ================================================== EditPreferences == -->
     
   <!-- slide 31g: Preference Window Title -->
-  <string name="EPr_title">Astrid: Настройки</string>
+  <string name="EPr_title">Tasquid: Настройки</string>
   
-  <string name="EPr_share_astrid">Поделиться Astrid</string>
+  <string name="EPr_share_astrid">Поделиться Tasquid</string>
 
-  <string name="EPr_share_astrid_summary">Расскажи про Astrid в любимой социальной сети</string>
+  <string name="EPr_share_astrid_summary">Расскажи про Tasquid в любимой социальной сети</string>
   
   <!-- slide 46a -->
   <string name="EPr_deactivated">выключен</string>
@@ -1305,7 +1305,7 @@
   <!-- Configurations -->
   <string name="EPr_configurations_title">Set configuration</string>
   <string name="EPr_config_default">По умолчанию</string>
-  <string name="EPr_config_lite">Astrid простая версия</string>
+  <string name="EPr_config_lite">Tasquid простая версия</string>
   
   <!-- Dialog title when setting preference configuration -->
   <string name="EPr_config_dialog_title">Установить конфигурацию?</string>
@@ -1397,7 +1397,7 @@
   <string name="EPr_manage_purge_deleted_summary">Внимание! Убранные задачи нельзя восстановить без файла резервной копии!</string>
   <!-- slide 47h-->
   <string name="EPr_manage_clear_all">Очистить все данные</string>
-  <string name="EPr_manage_clear_all_message">"Удалить  все задачи и настройки в Astrid?\n\nВнимание: действие необратимо!"</string>
+  <string name="EPr_manage_clear_all_message">"Удалить  все задачи и настройки в Tasquid?\n\nВнимание: действие необратимо!"</string>
 
   <!-- slide 47f -->
   <string name="EPr_manage_delete_completed_gcal">Удалить календарные события для завершенных задач</string>
@@ -1417,7 +1417,7 @@
   <string name="AOA_title">Дополнения</string>
     
   <!-- Add-on Activity: author for internal authors  -->
-  <string name="AOA_internal_author">Команда Astrid</string>
+  <string name="AOA_internal_author">Команда Tasquid</string>
     
   <!-- Add-on Activity: installed add-ons tab -->
   <string name="AOA_tab_installed">Установленные</string>
@@ -1435,10 +1435,10 @@
   <!-- Add-on Activity - when list is empty -->
   <string name="AOA_no_addons">Пустой список!</string>
   
-  <string name="AOA_ppack_title">Astrid Power Pack</string>
-  <string name="AOA_ppack_description">"Поддержите Astrid  и станьте еще продуктивнее с Astrid Power Pack, 4x2 и 4x4 виджетами и голосовым вводом. Повысь производительность уже сегодня!"</string>
-  <string name="AOA_locale_title">Языковой плагин Astrid</string>
-  <string name="AOA_locale_description">Разрешает Astrid использовать приложение Locale, чтобы посылать вам фильтрованные извещения. Нужно приложение Locale.</string>
+  <string name="AOA_ppack_title">Tasquid Power Pack</string>
+  <string name="AOA_ppack_description">"Поддержите Tasquid  и станьте еще продуктивнее с Tasquid Power Pack, 4x2 и 4x4 виджетами и голосовым вводом. Повысь производительность уже сегодня!"</string>
+  <string name="AOA_locale_title">Языковой плагин Tasquid</string>
+  <string name="AOA_locale_description">Разрешает Tasquid использовать приложение Locale, чтобы посылать вам фильтрованные извещения. Нужно приложение Locale.</string>
   
   <!-- ====================================================== TasksWidget == -->
 
@@ -1463,10 +1463,10 @@
   <!-- ============================================================= About == -->
   
   <!-- slide 30h: Title of "About" option in settings -->
-  <string name="p_about">О Astrid</string>
+  <string name="p_about">О Tasquid</string>
   
   <!-- About text (%s => current version)-->
-  <string name="p_about_text">Текущая версия: %s\n\n Astrid имеет открытый исходный код и с гордостью поддерживается Todoroo, Inc.</string>
+  <string name="p_about_text">Текущая версия: %s\n\n Tasquid имеет открытый исходный код и с гордостью поддерживается Todoroo, Inc.</string>
 
   <!-- Title of "Help" option in settings -->
   <string name="p_help">Поддержка</string>
@@ -1479,7 +1479,7 @@
   
   <!-- ============================================================= Misc == -->
   
-  <string name="feedback_positive_title">Rate Astrid?</string>
+  <string name="feedback_positive_title">Rate Tasquid?</string>
 
   <string name="feedback_positive_body">Glad I\'m helpful! Got a moment to help us with a 5-star rating?</string>
 
@@ -1489,24 +1489,24 @@
 
   <string name="feedback_activity_error">Oops! We weren\'t able to launch the market feedback section--it might not be available on your device.</string>
   
-  <string name="feedback_positive_button">Rate Astrid</string>
+  <string name="feedback_positive_button">Rate Tasquid</string>
 
   <string name="feedback_negative_button">Leave feedback</string>
   
   <string name="feedback_not_now">Not now</string>
   
-  <string name="feedback_banner_text">How\'s Astrid working for you?</string>
+  <string name="feedback_banner_text">How\'s Tasquid working for you?</string>
   
   <!-- Displayed when task killer found. %s => name of the application -->
-  <string name="task_killer_help">Возможно вы используете менеджер задач (%s). По возможности добавьте Astrid в список исключений иначе возможны сложности с напоминаниями.\n</string>
+  <string name="task_killer_help">Возможно вы используете менеджер задач (%s). По возможности добавьте Tasquid в список исключений иначе возможны сложности с напоминаниями.\n</string>
   
   <!-- Task killer dialog ok button -->
-  <string name="task_killer_help_ok">Я не хочу убивать Astrid!</string>
+  <string name="task_killer_help_ok">Я не хочу убивать Tasquid!</string>
     
-  <!-- Astrid\'s Android Marketplace title. It never appears in the app itself. -->
+  <!-- Tasquid\'s Android Marketplace title. It never appears in the app itself. -->
   
-  <!-- Astrid\'s Android Marketplace description. It never appears in the app itself. -->
-  <string name="marketplace_description">Astrid - распространённый список задач с открытым исходным кодом призванный помочь Вам справиться с делами. В нём есть напоминания, метки, синхронизация, плагин Locale, виджет и многое другое.</string>
+  <!-- Tasquid\'s Android Marketplace description. It never appears in the app itself. -->
+  <string name="marketplace_description">Tasquid - распространённый список задач с открытым исходным кодом призванный помочь Вам справиться с делами. В нём есть напоминания, метки, синхронизация, плагин Locale, виджет и многое другое.</string>
   
   <string name="DB_corrupted_title">Поврежденная база данных</string>
   
@@ -1820,7 +1820,7 @@
     <string name="gtasks_GLA_noaccounts">Нет доступных аккаунтов Google для синхронизации</string>
 
     <!-- Instructions: Gtasks further help -->    
-    <string name="gtasks_GLA_further_help">Чтобы увидеть задачи с уровнями и порядком, перейдите в Фильтры и выберите список Задачи Google. По умолчанию, Astrid пользуется своими настройками сортировки.</string>
+    <string name="gtasks_GLA_further_help">Чтобы увидеть задачи с уровнями и порядком, перейдите в Фильтры и выберите список Задачи Google. По умолчанию, Tasquid пользуется своими настройками сортировки.</string>
 
     <!-- Sign In Button -->    
 
@@ -1866,7 +1866,7 @@
     <string name="gtasks_error_accountManager">Ошибка в менеджере аккаунтов вашего телефона, Пожалуйста выйдите и войдите снова в настройках Google Tasks</string>
 
     <!-- Error when authorization error happens in background sync -->
-    <string name="gtasks_error_background_sync_auth">Ошибка фоновой аутентификации. Пожалуйста, попробуйте синхронизироваться, когда Astrid запущен.</string>
+    <string name="gtasks_error_background_sync_auth">Ошибка фоновой аутентификации. Пожалуйста, попробуйте синхронизироваться, когда Tasquid запущен.</string>
       
     <string name="gtasks_import_progress">Импорт из Google Tasks</string>
 
@@ -1914,7 +1914,7 @@
   
   
   <!-- slide 7b -->
-  <string name="welcome_login_tos_base">Используя Astrid, вы согласны с</string>
+  <string name="welcome_login_tos_base">Используя Tasquid, вы согласны с</string>
   
   <string name="welcome_login_tos_link">Условия предоставления услуг</string>
   
@@ -1932,7 +1932,7 @@
   
   <string name="welcome_login_confirm_later_cancel">Спасибо, не надо</string>
   
-  <string name="welcome_login_confirm_later_dialog">Войдите, чтобы получить максимум от Astrid! Бесплатно вы получите онлайн резервирование, полную синхронизацию с Astrid.com, возможность добавлять задачи по почте и даже делиться своими списками задач с друзьями!</string>
+  <string name="welcome_login_confirm_later_dialog">Войдите, чтобы получить максимум от Tasquid! Бесплатно вы получите онлайн резервирование, полную синхронизацию с Astrid.com, возможность добавлять задачи по почте и даже делиться своими списками задач с друзьями!</string>
 
 
 <!-- 
@@ -1945,10 +1945,10 @@
   <!-- Resources for built-in locale plug-in -->
 
   <!-- Locale Alert Editing Window Title -->
-  <string name="locale_edit_alerts_title">Предупреждение фильтра Astrid</string>
+  <string name="locale_edit_alerts_title">Предупреждение фильтра Tasquid</string>
   
   <!-- Locale Window Help -->                                                                                                                                            
-  <string name="locale_edit_intro">Astrid отправит вам напоминание при обнаружении задач по следующим фильтрам:</string>
+  <string name="locale_edit_intro">Tasquid отправит вам напоминание при обнаружении задач по следующим фильтрам:</string>
       
   <!-- Locale Window Filter Picker UI -->                                                                                                                                        
       
@@ -1969,7 +1969,7 @@
   <string name="locale_notification">Число соответствий $FILTER: $NUM</string>     
       
   <!-- Locale Plugin was not found, it is required -->
-  <string name="locale_plugin_required">Пожалуйста, установите плагин Astrid Locale!</string>        
+  <string name="locale_plugin_required">Пожалуйста, установите плагин Tasquid Locale!</string>        
      
 
 
@@ -2139,7 +2139,7 @@
   <!-- Preference: User Statistics (disabled) -->
   <string name="EPr_statistics_desc_disabled">Данные об использовании не передаются</string>  
   <!-- slide 32f: Preference: User Statistics (enabled) -->
-  <string name="EPr_statistics_desc_enabled">Помогите нам сделать Astrid лучше, отправляя анонимную статистику использования</string>
+  <string name="EPr_statistics_desc_enabled">Помогите нам сделать Tasquid лучше, отправляя анонимную статистику использования</string>
       
 
 
@@ -2183,7 +2183,7 @@
     <string name="file_browser_up">Вверх</string>
     <string name="file_browser_title">Выбрать файл</string>
     <string name="dir_browser_title">Выберите целевой каталог</string>
-    <string name="file_browser_err_permissions">Ошибка доступа! Пожалуйста убедитесь, что вы не заблокировали Astrid для доступа к SD карте.</string>
+    <string name="file_browser_err_permissions">Ошибка доступа! Пожалуйста убедитесь, что вы не заблокировали Tasquid для доступа к SD карте.</string>
     <string name="file_add_picture">Прикрепите изображение</string>
     <string name="file_add_sdcard">Прикрепите файл с Вашей SD карточки.</string>
     <string name="file_download_title">Загрузить файл?</string>
@@ -2219,7 +2219,7 @@
     
     <string name="subscriptions_learn_more">Узнать больше</string>
     
-    <string name="kii_premium_success">Спасибо, что приняли предложение ! Ваш бесплатный месяц Astrid Premium разблокирован.</string>
+    <string name="kii_premium_success">Спасибо, что приняли предложение ! Ваш бесплатный месяц Tasquid Premium разблокирован.</string>
     <string name="kii_premium_abort">Специальное предложение отменено</string>
     <string name="kii_premium_declined">Специальное предложение отклонено</string>
     <string name="kii_premium_error">Произошла ошибка при обработке. Пожалуйста повторите попытку позже.</string>
@@ -2229,7 +2229,7 @@
     <string name="premium_offers_detail">Чтобы получить бесплатный месяц, вы должны просмотреть видео от спонсора. Ему также потребуется Ваш email.</string>
     <string name="premium_offers_start">Получи бесплатно !</string>
     
-    <string name="premium_billing_title">Astrid Премиум</string>
+    <string name="premium_billing_title">Tasquid Премиум</string>
     <string name="premium_buy_month">1 месяц</string>
     <string name="premium_buy_year">1 год</string>
     <string name="premium_description_header">Добейтесь большего с премиум подпиской!</string>
@@ -2238,13 +2238,13 @@
     <string name="premium_description_3">Привязывать файлы по e-mail</string>
     <string name="premium_description_4">Сохранять голосовые заметки как аудиофайлы</string>
     <string name="premium_description_5">Знакомиться с ожидаемыми нововведениями</string>
-    <string name="premium_description_6">Поддержать команду Astrid!</string>
+    <string name="premium_description_6">Поддержать команду Tasquid!</string>
     <string name="premium_speech_bubble_1">Премиум повысит вашу продуктивность!</string>
     <string name="premium_speech_bubble_2">Подпишитесь на год и сэкономьте 25%%!</string>
-    <string name="premium_already_subscribed">Вы уже подписаны на Astrid Premium</string>
+    <string name="premium_already_subscribed">Вы уже подписаны на Tasquid Premium</string>
     <string name="premium_login_prompt">Чтобы оформить премиум подписку, необходима учетная запись на Astrid.com. Пожалуйста, войдите в свою учетную запись или создайте новую.</string>
-    <string name="premium_success">Спасибо за то, что подписались на Astrid Premium!</string>
-    <string name="premium_success_with_server_error">Спасибо за то, что оформили премиум подписку на Astrid! Новые возможности на astrid.com разблокируются в ближайшее время, на Вашем телефоне они должны быть доступны уже сейчас.</string>
+    <string name="premium_success">Спасибо за то, что подписались на Tasquid Premium!</string>
+    <string name="premium_success_with_server_error">Спасибо за то, что оформили премиум подписку на Tasquid! Новые возможности на astrid.com разблокируются в ближайшее время, на Вашем телефоне они должны быть доступны уже сейчас.</string>
     <string name="premium_verification_error">Премиум подписка для этой учетной записи Google Play оформлена на другого пользователя. Привязать дополнительный email к своей учетной записи можно здесь: astrid.com/users/profile</string>
     <string name="premium_check_for_purchases">Уже приобрели Premium? Нажмите здесь для проверки истории покупок в Google Play.</string>
     <string name="premium_checking_for_purchases">Проверка покупок...</string>
@@ -2344,7 +2344,7 @@
   
   <string name="rmd_reengage_add_tasks">Добавить задание</string>
   
-  <!-- Speech bubble options for astrid in reengagement notifs -->
+  <!-- Speech bubble options for Tasquid in reengagement notifs -->
   <string-array name="rmd_reengage_dialog_options">
     <item>Время сократить Ваш список задач!</item>
     <item>Дорогой сэр или мадам, некоторые задачи ждут Вашего внимания!</item>
@@ -2355,7 +2355,7 @@
     <item>Прекрасный день, чтобы поработат, я думаю!</item>
   </string-array>
   
-  <!-- Speech bubble options for astrid in reengagement notifs when no tasks present -->
+  <!-- Speech bubble options for Tasquid in reengagement notifs when no tasks present -->
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Разве вы не хотите навести порядок?</item>
     <item>Я Tasquid! Я здесь, чтобы помочь Вам сделать больше!</item>
@@ -2607,7 +2607,7 @@
   </string-array>
   
   <string-array name="reminder_responses">
-      <!-- responses to reminder: Astrid says...  (user should answer yes or no)  -->
+      <!-- responses to reminder: Tasquid says...  (user should answer yes or no)  -->
       <item>У меня для Вас кое-что есть!</item> 
       <item>Готовы оставить это в прошлом?</item>
       <item>Почему бы Вам это не сделать?</item>
@@ -2638,7 +2638,7 @@
   </string-array>
 
   <string-array name="postpone_nags">
-      <!-- Astrid\'s nagging when user clicks postpone -->
+      <!-- Tasquid\'s nagging when user clicks postpone -->
       <item>Но признайса, ты ведь не любишь откладывать?</item>
       <item>Даже быть ленивым иногда надоедает!</item>
       <item>А ведь где-нибудь кто-то надеется, что ты завершишь это!</item>
@@ -2794,7 +2794,7 @@
 
     
   <!-- Subtasks Help Introduction -->
-  <string name="subtasks_help_title">Сортировка и отступ в Astrid</string>
+  <string name="subtasks_help_title">Сортировка и отступ в Tasquid</string>
   <string name="subtasks_help_1">Нажмите и удерживайте, чтобы переместить задачу</string>
   <string name="subtasks_help_2">Перетащите вертикально, чтобы перестроить</string>
   <string name="subtasks_help_3">Перетащите горизонтально для отступа</string>
@@ -3050,7 +3050,7 @@
   <!-- slide 38f: Preference: Voice reminders if TTS-service is available -->
   <string name="EPr_voiceRemindersEnabled_title">Голосовые напоминания</string>
   <!-- Preference: Voice reminders description (true) -->
-  <string name="EPr_voiceRemindersEnabled_desc_enabled">Astrid должен произносить название задач во время напоминаний</string>
+  <string name="EPr_voiceRemindersEnabled_desc_enabled">Tasquid должен произносить название задач во время напоминаний</string>
   <!-- slide 38c: Preference: Voice reminders description (false) -->
   <string name="EPr_voiceRemindersEnabled_desc_disabled">Оповещение звуком во время напоминания</string>    
   
@@ -3196,7 +3196,7 @@
     <string name="PPW_info_title">Бесплатный Power Pack!</string>
     <string name="PPW_info_signin">Войди!</string>
     <string name="PPW_info_later">Позже</string>
-    <string name="PPW_unlock_howto">Опубликуй списки для друзей! Получи бесплатный Power Pack когда 3 друга зарегистрируются в Astrid.</string>
+    <string name="PPW_unlock_howto">Опубликуй списки для друзей! Получи бесплатный Power Pack когда 3 друга зарегистрируются в Tasquid.</string>
     <string name="PPW_check_button">Получи Power Pack бесплатно!</string>
     <string name="PPW_check_share_lists">Опубликовать списки!</string>
     <string name="PPW_api_level">Извините. Этот виджет поддерживается на версии Android 3.0 и выше.</string>

@@ -79,7 +79,7 @@
     <string name="PPW_info_title">Free Power Pack!</string>
     <string name="PPW_info_signin">Sign in!</string>
     <string name="PPW_info_later">Later</string>
-    <string name="PPW_unlock_howto">Share lists with friends! Unlock the free Power Pack when 3 friends sign up with Astrid.</string>
+    <string name="PPW_unlock_howto">Share lists with friends! Unlock the free Power Pack when 3 friends sign up with Tasquid.</string>
     <string name="PPW_check_button">Get the Power Pack for free!</string>
     <string name="PPW_check_share_lists">Share lists!</string>
     <string name="PPW_api_level">Sorry! This widget is only supported on Android 3.0 or higher.</string>
