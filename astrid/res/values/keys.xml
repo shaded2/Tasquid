@@ -21,7 +21,7 @@
   <!-- reminder time when task doesn't have a due time (hour of day) -->
   <string name="p_rmd_time">reminder_time</string>
   
-  <!-- whether "clear all notifications" clears astrid notifications -->
+  <!-- whether "clear all notifications" clears Tasquid notifications -->
   <string name="p_rmd_persistent">notif_annoy</string>
   
   <!-- whether to max out the notification reminder volume if reminder has setting "ring multiple" or "ring continuous" -->
@@ -39,7 +39,7 @@
   <!-- icon theme for notifications -->
   <string name="p_rmd_icon">notif_theme</string>
   
-  <!-- whether astrid nag messages are used -->
+  <!-- whether Tasquid nag messages are used -->
   <string name="p_rmd_nagging">nagging</string>
   
   <!-- if true / unset, hh:mm dialog. otherwise, days / hours -->
