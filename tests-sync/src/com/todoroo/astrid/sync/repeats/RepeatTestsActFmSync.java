@@ -12,7 +12,7 @@ import org.json.JSONObject;
 
 import com.google.ical.values.Frequency;
 import com.google.ical.values.RRule;
-import com.timsu.astrid.R;
+import com.eztransition.tasquid.R;
 import com.todoroo.andlib.data.TodorooCursor;
 import com.todoroo.andlib.service.Autowired;
 import com.todoroo.andlib.sql.Query;
