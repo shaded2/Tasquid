@@ -80,11 +80,11 @@
 
   <!-- Titles for user reengagement notifications -->
   <string-array name="rmd_reengage_notif_titles">
-    <item>A note from Astrid</item>
+    <item>A note from Tasquid</item>
     <!-- %s -> first name -->
     <item>Memo for %s.</item> 
-    <item>Your Astrid digest</item>
-    <item>Reminders from Astrid</item>
+    <item>Your Tasquid digest</item>
+    <item>Reminders from Tasquid</item>
   </string-array>
     
   <string name="rmd_reengage_name_default">you</string>
@@ -92,7 +92,7 @@
   
   <string name="rmd_reengage_add_tasks">Add a task</string>
   
-  <!-- Speech bubble options for astrid in reengagement notifs -->
+  <!-- Speech bubble options for Tasquid in reengagement notifs -->
   <string-array name="rmd_reengage_dialog_options">
     <item>Time to shorten your to-do list!</item>
     <item>Dear sir or madam, some tasks await your inspection!</item>
@@ -103,10 +103,10 @@
     <item>A lovely day for getting some work done, I think!</item>
   </string-array>
   
-  <!-- Speech bubble options for astrid in reengagement notifs when no tasks present -->
+  <!-- Speech bubble options for Tasquid in reengagement notifs when no tasks present -->
   <string-array name="rmd_reengage_dialog_empty_options">
     <item>Don\'t you want to get organized?</item>
-    <item>I\'m Astrid! I\'m here to help you do more!</item>
+    <item>I\'m Tasquid! I\'m here to help you do more!</item>
     <item>You look busy! Let me take some of those tasks off of your plate.</item>
     <item>I can help you keep track of all of the details in your life.</item>
     <item>You\'re serious about getting more done? So am I!</item>
@@ -173,23 +173,23 @@
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Title -->
   <string name="rmd_EPr_multiple_maxvolume_title">Max volume for multiple-ring reminders</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (true) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_true">Astrid will max out the volume for multiple-ring reminders</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_true">Tasquid will max out the volume for multiple-ring reminders</string>
   <!-- Reminder Preference: Max Volume for Multiple-Ring reminders Description (false) -->
-  <string name="rmd_EPr_multiple_maxvolume_desc_false">Astrid will use the system setting for the volume</string>
+  <string name="rmd_EPr_multiple_maxvolume_desc_false">Tasquid will use the system setting for the volume</string>
 
   <!-- Reminder Preference: Vibrate Title -->
   <string name="rmd_EPr_vibrate_title">Vibrate on alert</string>
   <!-- Reminder Preference: Vibrate Description (true) -->
-  <string name="rmd_EPr_vibrate_desc_true">Astrid will vibrate when sending notifications</string>
+  <string name="rmd_EPr_vibrate_desc_true">Tasquid will vibrate when sending notifications</string>
   <!-- Reminder Preference: Vibrate Description (false) -->
-  <string name="rmd_EPr_vibrate_desc_false">Astrid will not vibrate when sending notifications</string>
+  <string name="rmd_EPr_vibrate_desc_false">Tasquid will not vibrate when sending notifications</string>
 
   <!-- Reminder Preference: Nagging Title -->  
-  <string name="rmd_EPr_nagging_title">Astrid encouragements</string>
+  <string name="rmd_EPr_nagging_title">Tasquid encouragements</string>
   <!-- Reminder Preference: Nagging Description (true) -->
-  <string name="rmd_EPr_nagging_desc_true">Astrid will show up to give you an encouragement during reminders</string>
+  <string name="rmd_EPr_nagging_desc_true">Tasquid will show up to give you an encouragement during reminders</string>
   <!-- Reminder Preference: Nagging Description (false) -->
-  <string name="rmd_EPr_nagging_desc_false">Astrid will not give you any encouragement messages</string>
+  <string name="rmd_EPr_nagging_desc_false">Tasquid will not give you any encouragement messages</string>
 
   <!-- Reminder Preference: Snooze Dialog Title -->  
   <string name="rmd_EPr_snooze_dialog_title">Snooze dialog HH:MM</string>
@@ -326,7 +326,7 @@
       <item>When you have a minute:</item>
       <item>On your agenda:</item>
       <item>Free for a moment?</item>
-      <item>Astrid here!</item>
+      <item>Tasquid here!</item>
       <item>Hi! Can I bug you?</item>
       <item>A minute of your time?</item>
       <item>It\'s a great day to</item>
@@ -355,7 +355,7 @@
   </string-array>
   
   <string-array name="reminder_responses">
-      <!-- responses to reminder: Astrid says...  (user should answer yes or no)  -->
+      <!-- responses to reminder: Tasquid says...  (user should answer yes or no)  -->
       <item>I\'ve got something for you!</item> 
       <item>Ready to put this in the past?</item>
       <item>Why don\'t you get this done?</item>
@@ -375,7 +375,7 @@
       <item>Time to shorten your todo list!</item>
       <item>Are you on Team Order or Team Chaos? Team Order! Let\'s go!</item>
       <item>Have I mentioned you are awesome recently? Keep it up!</item>
-      <item>A task a day keeps the clutter away... Goodbye clutter!</item>
+      <item>A task a day keeps the clutter away… Goodbye clutter!</item>
       <item>How do you do it?  Wow, I\'m impressed!</item>
       <item>You can\'t just get by on your good looks. Let\'s get to it!</item>
       <item>Lovely weather for a job like this, isn\'t it?</item>
@@ -386,7 +386,7 @@
   </string-array>
 
   <string-array name="postpone_nags">
-      <!-- Astrid's nagging when user clicks postpone -->
+      <!-- Tasquid's nagging when user clicks postpone -->
       <item>Please tell me it isn\'t true that you\'re a procrastinator!</item>
       <item>Doesn\'t being lazy get old sometimes?</item>
       <item>Somewhere, someone is depending on you to finish this!</item>
