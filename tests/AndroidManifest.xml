@@ -20,6 +20,6 @@
     "adb shell am instrument -w com.xxx.xxx.tests/android.test.InstrumentationTestRunner"
     -->
     <instrumentation android:name="com.zutubi.android.junitreport.JUnitReportTestRunner"
-                     android:targetPackage="com.timsu.astrid"
+                     android:targetPackage="com.eztransition.tasquid"
                      android:label="Tests for Astrid"/>
 </manifest>
