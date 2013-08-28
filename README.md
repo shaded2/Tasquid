@@ -1,15 +1,15 @@
-[Astrid](http://www.astrid.com/) - Task Management Done Right
+[Tasquid](http://www.astrid.com/) - Task Management Done Right
 ================================  
-Astrid strives to be a simple and effective organization tool for Google Android phones. It comes with features like reminders, tagging, widgets, and integration with online synchronization services.
+Tasquid is a fork of the excellent Astrid project that was bought by Yahoo and shut down. Like Astrid, Tasquid strives to be a simple and effective organization tool for Google Android phones. It comes with features like reminders, tagging, widgets, and integration with online synchronization services.
 
-Interested in using Astrid? Search "astrid" in Android Market. Look for the smiling pink squid!
+Interested in using Tasquid? Search "tasquid" in Android Market. Look for the smiling purple squid!
 
-If you would like to help out with the Astrid project, you're in the right place.
+If you would like to help out with the Tasquid project, you're in the right place.
 
 Getting Started With Development
 ---------------
 
-1. Create your own fork of Astrid by clicking on Github's *Fork* button above (you may have to log in first - [github help](http://help.github.com/forking/)).
+1. Create your own fork of Tasquid by clicking on Github's *Fork* button above (you may have to log in first - [github help](http://help.github.com/forking/)).
 
 2. Install the following: 
  • *[git](http://git.or.cz/)*
@@ -23,7 +23,7 @@ Getting Started With Development
 
 (see Github's instructions if you need help). Follow the [Github Line Ending Help](http://help.github.com/dealing-with-lineendings/)
 
-4. Open up **eclipse** and import the *astrid*, *astridApi*, *astrid-tests*, *facebook*, and *GreenDroid* projects. 
+4. Open up **eclipse** and import the *astrid*, *astridApi*, *astrid-tests*, *facebook*, and *GreenDroid* projects. Also import the *aac-enc*, *actionbarsherlock* and *ViewPagerIndicator* projects when prompted with errors. 
 
 5. In Eclipse preferences -> Android build settings, set the SDK location (you installed it in step 2). At this point, there should be no compilation errors. If there are, you might have to **refresh** and **clean** the projects a few times from within **eclipse** 
 
@@ -31,13 +31,7 @@ Getting Started With Development
 
 6. Launch the *astrid* project as an **Android Application**, or the *astrid-tests* project as an **Android JUnit Test Suite**.
 
-7. Join the [Astrid Power-Users List](http://groups.google.com/group/astrid-power).
-
-8. Check out the [Product Roadmap](http://wiki.github.com/todoroo/astrid/) and [Issues](http://github.com/todoroo/astrid/issues), and look for something you'd want to tackle.
-
-9. Read the following contributor and debugging workflow and help make Astrid better!
-
-10. Sign a [Contributors License Agreement](https://github.com/downloads/todoroo/astrid/Contributors%20Licensing%20Agreement.pdf) and send it to tim AT astrid.com 
+7. Check out the [Product Roadmap](https://github.com/shaded2/Tasquid/issues), and look for something you'd want to tackle.
 
 Testing on a device - Debugging
 ---------------
@@ -68,9 +62,9 @@ Contributors workflow
 
 **Setup:**
 
-`git clone git@github.com:your-github-id/astrid.git` (your-github-id should obviously be replaced)
+`git clone git@github.com:shaded2/Tasquid.git`
 
-`git remote add upstream git@github.com:todoroo/astrid.git`
+`git remote add upstream git@github.com:shaded2/Tasquid.git`
 
 **Working on new features/fixes:**
 
@@ -88,8 +82,7 @@ work, work, work!
   
 then go to github and submit a pull request!  
 
-For further information, read [Tim's Collaborator Guide](http://www.betaful.com/2011/04/git-for-ongoing-collaboration/).
 
 Contact
 -------
-For general support requests, use [Astrid's feedback page](http://astrid.com/feedback). For development questions, contact [timsu](http://github.com/timsu) via e-mail.
+For general support requests, use [Tasquid's feedback page](http://astrid.com/feedback). For development questions, contact [shaded2](https://www.facebook.com/tasquid) via e-mail.
