@@ -18,7 +18,7 @@ public class FeedbackPromptDialogs {
         int bodyRes = positive ? R.string.feedback_positive_body : R.string.feedback_negative_body;
         int buttonRes = positive ? R.string.feedback_positive_button : R.string.feedback_negative_button;
 
-        final String url = positive ? "https://play.google.com/store/apps/details?id=com.timsu.astrid&write_review=true" : "http://weloveastrid.com/problem_astrid_android.html";
+        final String url = positive ? "https://play.google.com/store/apps/details?id=com.eztransition.tasquid&write_review=true" : "https://www.facebook.com/tasquid";
 
         d.setAstridTitle(titleRes)
         .setAstridText(bodyRes)
