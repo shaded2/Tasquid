@@ -42,6 +42,7 @@ import com.todoroo.andlib.utility.DialogUtilities;
 import com.todoroo.andlib.utility.Preferences;
 import com.todoroo.andlib.utility.TodorooPreferenceActivity;
 import com.todoroo.astrid.actfm.ActFmLoginActivity;
+import com.todoroo.astrid.actfm.ActFmPreferences;
 import com.todoroo.astrid.actfm.sync.ActFmPreferenceService;
 import com.todoroo.astrid.api.AstridApiConstants;
 import com.todoroo.astrid.dao.Database;
@@ -81,7 +82,7 @@ public class EditPreferences extends TodorooPreferenceActivity {
 
     private static final String SUPPORT_URL = "http://astrid.helpshift.com/a/astrid/?p=android"; //$NON-NLS-1$
 
-    private static final int APPEARANCE_PREFERENCE = 3;
+    private static final int APPEARANCE_PREFERENCE = 4;
 
     private static final int REQUEST_CODE_SYNC = 0;
     private static final int REQUEST_CODE_FILES_DIR = 2;
@@ -194,6 +195,15 @@ public class EditPreferences extends TodorooPreferenceActivity {
             }
         });
 
+        preference = screen.findPreference(getString(R.string.p_account));
+        preference.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+            @Override
+            public boolean onPreferenceClick(Preference p) {
+                showAccountPrefs();
+                return true;
+            }
+        });
+
         preference = screen.findPreference(getString(R.string.EPr_share_astrid));
         preference.setOnPreferenceClickListener(new OnPreferenceClickListener() {
             @Override
@@ -299,6 +309,17 @@ public class EditPreferences extends TodorooPreferenceActivity {
         Intent intent = new Intent(this, BeastModePreferences.class);
         intent.setAction(AstridApiConstants.ACTION_SETTINGS);
         startActivity(intent);
+    }
+
+    private void showAccountPrefs() {
+        if (actFmPreferenceService.isLoggedIn()) {
+            Intent intent = new Intent(this, ActFmPreferences.class);
+            intent.setAction(AstridApiConstants.ACTION_SETTINGS);
+            startActivityForResult(intent, REQUEST_CODE_SYNC);
+        } else {
+            Intent intent = new Intent(this, ActFmLoginActivity.class);
+            startActivity(intent);
+        }
     }
 
     private void showShareActivity() {
@@ -454,7 +475,19 @@ public class EditPreferences extends TodorooPreferenceActivity {
     public void updatePreferences(final Preference preference, Object value) {
         final Resources r = getResources();
 
-        if (r.getString(R.string.p_taskRowStyle_v2).equals(preference.getKey())) {
+        if (r.getString(R.string.p_account).equals(preference.getKey())) {
+            int title;
+            int summary;
+            if (!actFmPreferenceService.isLoggedIn()) {
+                title = R.string.account_type_title_not_logged_in;
+                summary = R.string.account_type_summary_not_logged_in;
+            } else {
+                title = R.string.actfm_account_info;
+                summary = R.string.actfm_account_info_summary;
+            }
+            preference.setTitle(title);
+            preference.setSummary(summary);
+        } else if (r.getString(R.string.p_taskRowStyle_v2).equals(preference.getKey())) {
             try {
                 Integer valueInt = Integer.parseInt((String) value);
                 String[] titles = getResources().getStringArray(R.array.EPr_task_row_styles);
