@@ -27,3 +27,5 @@ android-aac-enc/*
 facebook/facebook/.settings
 greendroid/GreenDroid/.settings
 viewPagerIndicator/library/.settings
+actionbarsherlock/library/.classpath
+viewPagerIndicator/library/.classpath
