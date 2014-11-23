@@ -19,7 +19,7 @@ Getting Started With Development
 
 3. Use **git** to clone your forked repositories 
 
-`git clone git@github.com:yourgithubid/astrid.git` 
+`git clone git@github.com:shaded2/Tasquid.git`
 
 (see Github's instructions if you need help). Follow the [Github Line Ending Help](http://help.github.com/dealing-with-lineendings/)
 
